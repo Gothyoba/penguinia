@@ -6,14 +6,16 @@ How to play:
 
 Type everything in lowercase without any errors if you want the game to understand you. Always press enter after each command you give to the game. Her are all working commands:
 
-north - moves the player north
+w - moves the player north
 
-south - moves the player south
+a - moves the player west
 
-east - moves the player east
+s - moves the player south
 
-west - moves the player west
+d - moves the player east
 
 e - ends the game
+
+Each time you move the player the game will output two numbers representing the coordinates of the player. In the future this will be rpelaced by a description of where you are.
 
 Have fun playing

@@ -19,13 +19,13 @@ def ask_input():
 		print(pos)
 		key = input()
 		match key:
-			case "north":
+			case "w":
 				pos = get_new_pos(pos, UP)
-			case "west":
+			case "a":
 				pos = get_new_pos(pos, -RIGHT)
-			case "south":
+			case "s":
 				pos = get_new_pos(pos, -UP)
-			case "east":
+			case "d":
 				pos = get_new_pos(pos, RIGHT)
 			case "e":
 				break
