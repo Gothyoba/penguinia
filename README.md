@@ -18,4 +18,6 @@ e - ends the game
 
 Each time you move the player the game will output two numbers representing the coordinates of the player. In the future this will be rpelaced by a description of where you are.
 
+Note: This game only works with python version 3.10 and above.
+
 Have fun playing
