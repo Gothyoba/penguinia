@@ -1,4 +1,5 @@
 import numpy as np
+from coordinates import NAMES, QUESTS
 
 ORIGIN = np.array([0,0])
 UP = np.array([0,1])
