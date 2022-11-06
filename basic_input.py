@@ -14,7 +14,7 @@ ERROR = "I did not understand that. Make sure to keep everything lowercase."
 XMAX = 1
 YMAX = 1
 
-#changes position
+#changes position and keeps player in grid
 def get_new_pos(pos, direction):
 	pos = pos + direction
 	if abs(pos[0]) > XMAX or abs(pos[1]) > YMAX:
@@ -23,11 +23,29 @@ def get_new_pos(pos, direction):
 	else:
 		return pos
 
+#placeholder, should take point in array NAMES to say your location in future
+def get_names(pos):
+	#error given if using pos == ORIGIN
+	if pos[0] == 0 and pos[1] == 0:
+		print("Forsteri is the capital of Penguinia.")
+	else:
+		print("You are in TODO")
+
+#placeholder, should take point in array QUESTS to say your location in future
+def get_quests(pos):
+	#error given if using pos == ORIGIN
+	if pos[0] == 0 and pos[1] == 0:
+		print("There are quests 'Free Penguinia'. You may not play it.")
+	else:
+		print("There are quests TODO")
+
 #basic player input
 def ask_input():
 	pos = ORIGIN
 	while (True):
 		print(pos)
+		get_names(pos)
+		get_quests(pos)
 		key = input()
 		match key:
 			case "w":
