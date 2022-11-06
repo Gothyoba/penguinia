@@ -22,10 +22,11 @@ def combat1(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_ene
 			enemy_hitpoints = min(enemy_hitpoints - DAMAGE + enemy_protection, hitpoints - 1)
 			if enemy_hitpoints >= max_enemy_hitpoints:
 				enemy_hitpoints = max_enemy_hitpoints - 1
-			if enemy_hitpoints <= 0:
+			elif enemy_hitpoints <= 0:
 				print("Enemy is dead.")
-			print("Enemy hitpoints are %s" % (enemy_hitpoints))
-			combat2(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_enemy_hitpoints, hitpoints)
+				print("Enemy hitpoints are %s" % (enemy_hitpoints))
+			else:
+				combat2(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_enemy_hitpoints, hitpoints)
 		case "def":
 			if HELPER == "Potion":
 				hitpoints = MAX_HITPOINTS - 1
