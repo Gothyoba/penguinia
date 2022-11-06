@@ -1,5 +1,6 @@
 import numpy as np
 
+#unused coordinate matrixes for names and quests
 NAMES = np.array(
 [["A", "B", "C"],
  ["D", "E", "F"],
