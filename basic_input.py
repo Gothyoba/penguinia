@@ -11,12 +11,17 @@ RIGHT = np.array([1,0])
 ERROR = "I did not understand that. Make sure to keep everything lowercase."
 
 #unused grid limitations
-XMAX = 50
-YMAX = 50
+XMAX = 1
+YMAX = 1
 
 #changes position
 def get_new_pos(pos, direction):
-	return pos + direction
+	pos = pos + direction
+	if abs(pos[0]) > XMAX or abs(pos[1]) > YMAX:
+		print("Those lands are unknown. Who knows what dangers might lie in exploring them?")
+		return pos - direction
+	else:
+		return pos
 
 #basic player input
 def ask_input():
