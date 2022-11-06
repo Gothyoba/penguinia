@@ -42,7 +42,7 @@ def combat1(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_ene
 
 #enemy combat action
 def combat2(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_enemy_hitpoints, hitpoints=HITPOINTS):
-	print(enemy_name + "is attacking you!")
+	print(enemy_name + " is attacking you!")
 	hitpoints = min(hitpoints - enemy_damage + PROTECTION, hitpoints - 1)
 	if hitpoints <= 0:
 		print("You are dead.")

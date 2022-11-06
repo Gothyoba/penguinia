@@ -1,7 +1,7 @@
 import numpy as np
 #currently unused
 from coordinates import NAMES, QUESTS
-from combat import combat1
+from combat import combat1, WEAPON, DAMAGE
 from error import *
 
 #directions and origin for grid
@@ -40,6 +40,9 @@ def get_quests(pos):
 		match key:
 			case "yes":
 				combat1(1, 2, "Seal", 6, 6, 5)
+				print("You have the new weapon Supersword as a reward for finishing the quest 'Free Penguinia'! Supersword deals three damage!")
+				WEAPON = "Supersword"
+				DAMAGE = 3
 			case "no":
 				ask_input()
 			case _:
