@@ -16,7 +16,17 @@ s - moves the player south
 
 d - moves the player east
 
+q - checks for quests
+
 e - ends the game
+
+yes - starts a quest after the command q has been givne
+
+no - opposite of yes
+
+att - attacks enemy while in combat
+
+def - sets your hitpoints to hitpoints minus one in combat if you have a potion
 
 Each time you move the player the game will output two numbers representing the coordinates of the player. In the future this will be replaced by a description of where you are.
 
