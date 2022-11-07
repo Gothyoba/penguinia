@@ -45,6 +45,8 @@ def get_quests(pos):
 				DAMAGE = 3
 			case "no":
 				ask_input()
+			case "e":
+				exit()
 			case _:
 					print(ERROR)
 					get_quests(pos)
