@@ -14,7 +14,7 @@ def combat1(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_ene
 	print("You are fighting " + enemy_name + "!")
 	print("Your weapon is " + WEAPON + "!")
 	print("Your helper is " + HELPER + "!")
-	print("You have %s hitpoints!" % (hitpoints))
+	print(f"You have {hitpoints} hitpoints!")
 	print("Choose your action! Attack or defend.")
 	key = input()
 	match key:
@@ -24,7 +24,7 @@ def combat1(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_ene
 				enemy_hitpoints = max_enemy_hitpoints - 1
 			elif enemy_hitpoints <= 0:
 				print("Enemy is dead.")
-				print("Enemy hitpoints are %s" % (enemy_hitpoints))
+				print(f"Enemy hitpoints are {enemy_hitpoints}")
 			else:
 				combat2(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_enemy_hitpoints, hitpoints)
 		case "def":
@@ -49,8 +49,8 @@ def combat2(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_ene
 		exit()
 	if  hitpoints >= MAX_HITPOINTS:
 		hitpoints = MAX_HITPOINTS - 1
-		print("You have %s hitpoints!" % (hitpoints))
+		print(f"You have {hitpoints} hitpoints!")
 		combat1(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_enemy_hitpoints, hitpoints)
 	else:
-		print("You have %s hitpoints!" % (hitpoints))
+		print(f"You have {hitpoints} hitpoints!")
 		combat1(enemy_damage, enemy_protection, enemy_name, enemy_hitpoints, max_enemy_hitpoints, hitpoints)
