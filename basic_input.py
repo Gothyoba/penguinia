@@ -38,12 +38,12 @@ def get_quests(pos):
 		print("There are quests 'Free Penguinia'. Do you want to play it?")
 		key = input()
 		match key:
-			case "yes":
+			case "y":
 				combat1(1, 2, "Seal", 6, 6, 5)
 				print("You have the new weapon Supersword as a reward for finishing the quest 'Free Penguinia'! Supersword deals three damage!")
 				WEAPON = "Supersword"
 				DAMAGE = 3
-			case "no":
+			case "n":
 				ask_input()
 			case "e":
 				exit()
