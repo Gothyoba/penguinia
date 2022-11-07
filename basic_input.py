@@ -31,7 +31,7 @@ def get_names(pos):
 	else:
 		print("You are in TODO")
 
-#placeholder, should take point in array QUESTS to say your location in future
+#placeholder, should take point in array QUESTS to give quests in future
 def get_quests(pos):
 	#error given if using pos == ORIGIN
 	if pos[0] == 0 and pos[1] == 0:
