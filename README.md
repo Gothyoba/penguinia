@@ -24,9 +24,9 @@ y - starts a quest after the command q has been given
 
 n - opposite of yes
 
-att - attacks enemy while in combat
+at - attacks enemy while in combat
 
-def - sets your hitpoints to hitpoints minus one in combat if you have a potion
+de - sets your hitpoints to hitpoints minus one in combat if you have a potion
 
 Each time you move the player the game will output two numbers representing the coordinates of the player. In the future this will be replaced by a description of where you are.
 
