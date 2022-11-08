@@ -1,8 +1,8 @@
 import numpy as np
-#currently unused
-from coordinates import NAMES, QUESTS
 from combat import combat1, WEAPON, DAMAGE
 from error import *
+#coordinates is currently unused
+from coordinates import NAMES, QUESTS
 
 #directions and origin for grid
 ORIGIN = np.array([0,0])
