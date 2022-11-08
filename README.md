@@ -1,12 +1,12 @@
 # Penguinia
 
-Penguinia is a text-based exploration and combat game made in python. Penguinia is currently in very early development, so expect limited playability and feature, as well as many bugs.
+Penguinia is a text-based exploration and combat game made in python. Penguinia is currently in very early development, so expect limited playability and features, as well as many bugs.
 
-Currently Penguinia is on version 0.0.1. In order to play penguinia, run the file run.py in a console or terminal. There is currently no tutorial.
+Currently Penguinia is on version 0.0.1. In order to play penguinia, run the file run.py in a console capable of running python. There is currently no in-game tutorial.
 
 ## How to play:
 
-Type everything in lowercase without any errors if you want the game to understand you. Always press enter after each command you give to the game. Her are all working commands:
+Type everything in lowercase without any errors if you want the game to understand you. Always press enter after each command you give to the game. Here are all working commands:
 
 w - moves the player north
 
@@ -26,9 +26,11 @@ n - opposite of yes
 
 at - attacks enemy while in combat
 
-de - sets your hitpoints to hitpoints minus one in combat if you have a potion
+de - sets your hitpoints to just under your maximum hitpoints in combat if you have a potion
 
-Each time you move the player the game will output two numbers representing the coordinates of the player. In the future this will be replaced by a description of where you are.
+Each time you move the player the game will output the name of where you are, or a placeholder name. In the future this will be a more detailed description for each location.
+
+Penguinia currently limits the player to a 3 by 3 grid, however this grid will expand in the next few updates.
 
 Note: This game only works with python version 3.10 and above as well as the corresponding version of numpy.
 
