@@ -2,7 +2,6 @@ import numpy as np
 from quests import Quest, LORE
 from enemy import ENEMIES
 
-#unused coordinate matrixes for names and quests
 NAMES = np.array(
 [["A", "B", "C"],
  ["D", "E", "F"],
