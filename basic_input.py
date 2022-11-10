@@ -3,6 +3,7 @@ from combat import combat1, WEAPON, DAMAGE
 from error import *
 #coordinates is currently unused
 from coordinates import NAMES, QUESTS
+from enemy import Enemy
 
 #directions and origin for grid
 ORIGIN = np.array([0,0])
@@ -39,7 +40,8 @@ def get_quests(pos):
 		key = input()
 		match key:
 			case "y":
-				combat1(1, 2, "Seal", 6, 6, 5)
+				enemy = Enemy("Seal", 1, 2, 6, 6)
+				combat1(enemy, 5)
 				print("You have the new weapon Supersword as a reward for finishing the quest 'Free Penguinia'! Supersword deals three damage!")
 				WEAPON = "Supersword"
 				DAMAGE = 3
