@@ -48,8 +48,8 @@ def get_quests(pos):
 			case "e":
 				exit()
 			case _:
-					print(ERROR)
-					get_quests(pos)
+				print(ERROR)
+				get_quests(pos)
 	else:
 		print("There are quests TODO")
 
