@@ -1,18 +1,14 @@
 import numpy as np
-from combat import combat1, WEAPON, DAMAGE
 from error import *
 #coordinates is currently unused
-from coordinates import NAMES, QUESTS
+from coordinates import NAMES, XMAX, YMAX, pos_to_index, QUESTS
+from combat import combat1
 
 #directions and origin for grid
 ORIGIN = np.array([0,0])
 UP = np.array([0,1])
 RIGHT = np.array([1,0])
 
-
-#unused grid limitations
-XMAX = 1
-YMAX = 1
 
 #changes position and keeps player in grid
 def get_new_pos(pos, direction):
@@ -31,27 +27,20 @@ def get_names(pos):
 	else:
 		print("You are in TODO")
 
-#placeholder, should take point in array QUESTS to give quests in future
 def get_quests(pos):
-	#error given if using pos == ORIGIN
-	if pos[0] == 0 and pos[1] == 0:
-		print("There are quests 'Free Penguinia'. Do you want to play it?")
-		key = input()
-		match key:
-			case "y":
-				combat1(QUESTS[0][0].enemies[0], 5)
-				print("You have the new weapon Supersword as a reward for finishing the quest 'Free Penguinia'! Supersword deals three damage!")
-				WEAPON = "Supersword"
-				DAMAGE = 3
-			case "n":
-				ask_input()
-			case "e":
-				exit()
-			case _:
-				print(ERROR)
-				get_quests(pos)
-	else:
-		print("There are quests TODO")
+	index = pos_to_index(pos)
+	print("There is the quests. Do you want to play them?")
+	key = input()
+	match key:
+		case "y":
+			combat1(QUESTS[index[0]][index[1]].enemies[0], 5)
+		case "n":
+			ask_input()
+		case "e":
+			exit()
+		case _:
+			print(ERROR)
+			get_quests(pos)
 
 #basic player input
 def ask_input():
