@@ -30,6 +30,6 @@ Planned:
 
 ## 0.1(planned)
 
-- Expanasion of introduction
+- Expansion of introduction
 - Tutorial
 - More lore
