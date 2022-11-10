@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.1
+## 0.0.1, November 6 2022
 
 - Basic introduction
 - Limited 3 by 3 grid
