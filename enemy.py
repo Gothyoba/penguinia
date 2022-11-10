@@ -5,3 +5,8 @@ class Enemy:
 		self.protection = protection
 		self.hitpoints = hitpoints
 		self.max_hitpoints = max_hitpoints
+
+ENEMIES = [
+    Enemy("Seal", 1, 2, 6, 6),
+    Enemy("foo", 1, 1, 1, 1)
+]

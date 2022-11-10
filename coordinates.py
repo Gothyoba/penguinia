@@ -1,4 +1,6 @@
 import numpy as np
+from quests import Quest, LORE
+from enemy import ENEMIES
 
 #unused coordinate matrixes for names and quests
 NAMES = np.array(
@@ -9,7 +11,7 @@ NAMES = np.array(
 )
 
 QUESTS = np.array(
-[["0", "1", "2"],
+[[Quest(LORE[0], [ENEMIES[0]]), Quest(LORE[1], ...), "2"],
  ["3", "4", "5"],
  ["6", "7", "8"]
 ]
