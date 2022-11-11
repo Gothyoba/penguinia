@@ -29,7 +29,7 @@ def get_names(pos):
 
 def get_quests(pos):
 	index = pos_to_index(pos)
-	print("There is the quests. Do you want to play them?")
+	print("There is a quest. Do you want to play it?")
 	key = input()
 	match key:
 		case "y":
