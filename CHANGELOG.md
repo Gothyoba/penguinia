@@ -19,17 +19,20 @@ Implemented:
 
 Planned:
 
-- Named grid of places
-- Extension of quest Free Penguinia
+- Placeholder text in quests
 
 ### 0.0.3(planned)
 
 - Randomize combat damage
 - Grid expansion
 - More quests
+- Named grid of places(placeholders)
+- Extension of quest Free Penguinia
 
 ## 0.1(planned)
 
 - Extension of introduction
+- Replace placeholder areas for places
+- Replace placeholder text in quests for storyline
 - Tutorial
 - More lore
