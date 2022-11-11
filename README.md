@@ -24,9 +24,9 @@ y - starts a quest after the command q has been given
 
 n - opposite of yes
 
-at - attacks enemy while in combat
+o - attacks enemy while in combat
 
-de - sets your hitpoints to just under your maximum hitpoints in combat if you have a potion
+p - sets your hitpoints to just under your maximum hitpoints in combat if you have a potion
 
 Each time you move the player the game will output the name of where you are, or a placeholder name. In the future this will be a more detailed description for each location.
 

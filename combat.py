@@ -19,7 +19,7 @@ def combat1(enemy, hitpoints=HITPOINTS):
 	print("Choose your action! Attack or defend.")
 	key = input()
 	match key:
-		case "at":
+		case "o":
 			enemy.hitpoints = min(enemy.hitpoints - DAMAGE + enemy.protection, hitpoints - 1)
 			if enemy.hitpoints >= enemy.max_hitpoints:
 				enemy.hitpoints = enemy.max_hitpoints - 1
@@ -28,7 +28,7 @@ def combat1(enemy, hitpoints=HITPOINTS):
 				print(f"Enemy hitpoints are {enemy.hitpoints}")
 			else:
 				combat2(enemy, hitpoints)
-		case "de":
+		case "p":
 			if HELPER == "Potion":
 				hitpoints = MAX_HITPOINTS - 1
 				print(f"Your hitpoints are {hitpoints}")

@@ -14,7 +14,7 @@
 Implemented:
 
 - Allowed exiting during quest searching
-- Commands yes, no, att and def changed to y, n at and de repectively
+- Commands yes, no, att and def changed to y, n, o and p repectively
 - Death message has exclamation mark
 
 Planned:
