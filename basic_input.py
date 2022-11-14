@@ -29,10 +29,11 @@ def get_names(pos):
 
 def get_quests(pos):
 	index = pos_to_index(pos)
-	print("There is a quest. Do you want to play it?")
+	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
 	key = input()
 	match key:
 		case "y":
+			print(QUESTS[index[0]][index[1]].lore[0])
 			combat1(QUESTS[index[0]][index[1]].enemies[0], 5)
 		case "n":
 			ask_input()
