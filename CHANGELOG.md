@@ -9,7 +9,7 @@
 - Added quest Free Penguinia
 - One named location
 
-### 0.0.2(incomplete)
+### 0.0.2, November 14 2022
 
 Implemented:
 
@@ -17,10 +17,8 @@ Implemented:
 - Commands yes, no, att and def changed to y, n, o and p repectively
 - Death message has exclamation mark
 - Temporarily removed quest rewards
-
-Planned:
-
 - Placeholder text in quests
+- You cannot check for qeusts outside of the starting area(bug)
 
 ### 0.0.3(planned)
 
