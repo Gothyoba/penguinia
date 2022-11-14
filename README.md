@@ -16,7 +16,7 @@ s - moves the player south
 
 d - moves the player east
 
-q - checks for quests
+q - checks for quests(there is currently a bug that does not let you check for quests outside of the starting area)
 
 e - ends the game
 
