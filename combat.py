@@ -12,6 +12,7 @@ DAMAGE = 2
 
 #player attack/defend
 def combat1(enemy, hitpoints=HITPOINTS):
+	print(f"Enemy hitpoints are {enemy.hitpoints}")
 	print("You are fighting " + enemy.name + "!")
 	print("Your weapon is " + WEAPON + "!")
 	print("Your helper is " + HELPER + "!")
@@ -25,7 +26,6 @@ def combat1(enemy, hitpoints=HITPOINTS):
 				enemy.hitpoints = enemy.max_hitpoints - 1
 			elif enemy.hitpoints <= 0:
 				print("Enemy is dead.")
-				print(f"Enemy hitpoints are {enemy.hitpoints}")
 			else:
 				combat2(enemy, hitpoints)
 		case "p":
