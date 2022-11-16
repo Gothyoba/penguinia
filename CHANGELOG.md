@@ -11,8 +11,6 @@
 
 ### 0.0.2, November 14 2022
 
-Implemented:
-
 - Allowed exiting during quest searching
 - Commands yes, no, att and def changed to y, n, o and p repectively
 - Death message has exclamation mark
@@ -20,7 +18,13 @@ Implemented:
 - Placeholder text in quests
 - You cannot check for qeusts outside of the starting area(bug)
 
-### 0.0.3(planned)
+### 0.0.3(incomplete)
+
+Implemented:
+
+- Enemy hitpoints now shown during combat
+
+Planned:
 
 - Randomize combat damage
 - Grid expansion
