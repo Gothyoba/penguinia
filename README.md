@@ -2,7 +2,7 @@
 
 Penguinia is a text-based exploration and combat game made in python. Penguinia is currently in very early development, so expect limited playability and features, as well as many bugs.
 
-Pneguinia is currently on version 0.0.2. In order to play penguinia, run the file run.py in a console capable of running python. There is currently no in-game tutorial.
+Penguinia is currently on version 0.0.2. In order to play penguinia, run the file run.py in a console capable of running python. There is currently no in-game tutorial.
 
 ## How to play:
 
@@ -16,7 +16,7 @@ s - moves the player south
 
 d - moves the player east
 
-q - checks for quests(there is currently a bug that does not let you check for quests outside of the starting area)
+q - checks for quests (there is currently a bug that does not let you check for quests outside of the starting area)
 
 e - ends the game
 
