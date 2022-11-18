@@ -1,11 +1,11 @@
 import numpy as np
 from error import *
 #coordinates is currently unused
-from coordinates import NAMES, XMAX, YMAX, pos_to_index, QUESTS
+from coordinates import NAMES, XMAX, YMAX, pos_to_index, QUESTS, out_of_grid
 from combat import combat1
 
 #directions and origin for grid
-ORIGIN = np.array([0,0])
+ORIGIN = np.array([1,1])
 UP = np.array([0,1])
 RIGHT = np.array([1,0])
 
@@ -13,7 +13,7 @@ RIGHT = np.array([1,0])
 #changes position and keeps player in grid
 def get_new_pos(pos, direction):
 	pos = pos + direction
-	if abs(pos[0]) > XMAX or abs(pos[1]) > YMAX:
+	if out_of_grid(pos):
 		print("Those lands are unknown. Who knows what dangers might lie in exploring them?")
 		return pos - direction
 	else:
@@ -21,15 +21,12 @@ def get_new_pos(pos, direction):
 
 #placeholder, should take point in array NAMES to say your location in future
 def get_names(pos):
-	#error given if using pos == ORIGIN
-	if pos[0] == 0 and pos[1] == 0:
-		print("Forsteri is the capital of Penguinia.")
-	else:
-		print("You are in TODO")
+	print("You are in " + NAMES[pos[0], pos[1]] + ".")
 
 def get_quests(pos):
 	index = pos_to_index(pos)
-	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
+	print("There is a quest: " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
+	print("yes[y]/no[n]/exit[e]")
 	key = input()
 	match key:
 		case "y":
