@@ -32,6 +32,6 @@ Each time you move the player the game will output the name of where you are, or
 
 Penguinia currently limits the player to a 3 by 3 grid, however this grid will expand in the next few updates.
 
-Note: This game only works with python version 3.10 and above as well as the corresponding version of numpy.
+Note: This game requires python version 3.10 and above as well as the corresponding version of numpy.
 
 Have fun playing Penguinia!
