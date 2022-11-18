@@ -1,18 +1,14 @@
 import numpy as np
-#currently unused
-from coordinates import NAMES, QUESTS
+from error import *
+#coordinates is currently unused
+from coordinates import NAMES, XMAX, YMAX, pos_to_index, QUESTS
+from combat import combat1
 
 #directions and origin for grid
 ORIGIN = np.array([0,0])
 UP = np.array([0,1])
 RIGHT = np.array([1,0])
 
-#error message
-ERROR = "I did not understand that. Make sure to keep everything lowercase."
-
-#unused grid limitations
-XMAX = 1
-YMAX = 1
 
 #changes position and keeps player in grid
 def get_new_pos(pos, direction):
@@ -31,13 +27,21 @@ def get_names(pos):
 	else:
 		print("You are in TODO")
 
-#placeholder, should take point in array QUESTS to say your location in future
 def get_quests(pos):
-	#error given if using pos == ORIGIN
-	if pos[0] == 0 and pos[1] == 0:
-		print("There are quests 'Free Penguinia'. You may not play it.")
-	else:
-		print("There are quests TODO")
+	index = pos_to_index(pos)
+	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
+	key = input()
+	match key:
+		case "y":
+			print(QUESTS[index[0]][index[1]].lore[0])
+			combat1(QUESTS[index[0]][index[1]].enemies[0], 5)
+		case "n":
+			ask_input()
+		case "e":
+			exit()
+		case _:
+			print(ERROR)
+			get_quests(pos)
 
 #basic player input
 def ask_input():
@@ -45,7 +49,6 @@ def ask_input():
 	while (True):
 		print(pos)
 		get_names(pos)
-		get_quests(pos)
 		key = input()
 		match key:
 			case "w":
@@ -56,6 +59,8 @@ def ask_input():
 				pos = get_new_pos(pos, -UP)
 			case "d":
 				pos = get_new_pos(pos, RIGHT)
+			case "q":
+				get_quests(pos)
 			case "e":
 				break
 			case _:
