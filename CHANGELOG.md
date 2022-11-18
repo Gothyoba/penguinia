@@ -16,7 +16,7 @@
 - Death message has exclamation mark
 - Temporarily removed quest rewards
 - Placeholder text in quests
-- You cannot check for qeusts outside of the starting area(bug)
+- You cannot check for qeusts outside of the starting area (bug)
 
 ### 0.0.3(incomplete)
 
@@ -29,13 +29,13 @@ Planned:
 - Randomize combat damage
 - Grid expansion
 - More quests
-- Named grid of places(placeholders)
+- Named grid of places (placeholders)
 - Extension of quest Free Penguinia
 
 ## 0.1(planned)
 
 - Extension of introduction
-- Replace placeholder areas for places
+- Replace placeholder names for place names
 - Replace placeholder text in quests for storyline
 - Tutorial
 - More lore
