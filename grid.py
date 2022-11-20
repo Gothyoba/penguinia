@@ -27,6 +27,12 @@ def out_of_grid(pos):
     return abs(pos[0]) > XMAX or abs(pos[1]) > YMAX
 
 
+def get_name(pos):
+    return NAMES[pos[1], pos[0]]
+
+def get_quest(pos):
+    return QUESTS[pos[1], pos[0]]
+
 # For array equality you can use:
 # https://numpy.org/doc/stable/reference/generated/numpy.array_equal.html
 #if np.array_equal(pos, ORIGIN):

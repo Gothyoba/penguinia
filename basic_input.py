@@ -16,18 +16,19 @@ def get_new_pos(pos, direction):
 	else:
 		return pos
 
-#placeholder, should take point in array NAMES to say your location in future
-def get_names(pos):
-	print("You are in " + grid.NAMES[pos[0], pos[1]] + ".")
+def print_name(pos):
+    name = grid.get_name(pos)
+    print("You are in " + name + ".")
 
 def get_quests(pos):
-	print("Here is the quest: " + grid.QUESTS[pos[0]][pos[1]].name + ". Do you want to play it?")
+	quest = grid.get_quest(pos)
+	print("Here is the quest: " + quest.lore + ". Do you want to play it?")
 	print("yes[y]/no[n]/exit[e]")
 	key = input()
 	match key:
 		case "y":
-			print(grid.QUESTS[index[0]][index[1]].lore[0])
-			combat1(grid.QUESTS[index[0]][index[1]].enemies[0], 5)
+			print(quest.lore)
+			combat1(quest.enemies[0], 5)
 		case "n":
 			ask_input()
 		case "e":
@@ -41,7 +42,7 @@ def ask_input():
 	pos = ORIGIN
 	while (True):
 		print(pos)
-		get_names(pos)
+		print_name(pos)
 		key = input()
 		match key:
 			case "w":
