@@ -1,3 +1,4 @@
+#used to create enemies
 class Enemy:
 	def __init__(self, name, damage, protection, hitpoints, max_hitpoints):
 		self.name = name
@@ -6,7 +7,9 @@ class Enemy:
 		self.hitpoints = hitpoints
 		self.max_hitpoints = max_hitpoints
 
+#some enemies
 ENEMIES = [
     Enemy("Seal", 1, 2, 6, 6),
+    #placeholder
     Enemy("foo", 1, 1, 1, 1)
 ]

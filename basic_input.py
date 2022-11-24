@@ -32,13 +32,16 @@ def get_quests(pos):
 	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
 	key = input()
 	match key:
+		#accepting is y for yes not accepting is n for no
 		case "y":
 			print(QUESTS[index[0]][index[1]].lore[0])
 			combat1(QUESTS[index[0]][index[1]].enemies[0], 5)
 		case "n":
 			ask_input()
+		#exiting
 		case "e":
 			exit()
+		#anything else
 		case _:
 			print(ERROR)
 			get_quests(pos)
@@ -51,6 +54,7 @@ def ask_input():
 		get_names(pos)
 		key = input()
 		match key:
+			#use of wasd for movement
 			case "w":
 				pos = get_new_pos(pos, UP)
 			case "a":
@@ -61,7 +65,9 @@ def ask_input():
 				pos = get_new_pos(pos, RIGHT)
 			case "q":
 				get_quests(pos)
+			#ends the program
 			case "e":
 				break
+			#error
 			case _:
 				print(ERROR)

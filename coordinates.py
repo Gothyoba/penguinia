@@ -5,6 +5,7 @@ from enemy import ENEMIES
 XMAX = 1
 YMAX = 1
 
+#coordinate matrix for names, currently uses placeholders unused until 0.0.3
 NAMES = np.array(
 [["A", "B", "C"],
  ["D", "E", "F"],
@@ -12,6 +13,7 @@ NAMES = np.array(
 ]
 )
 
+#coordinate matrix for quests, some are placeholders, some don't work yet
 QUESTS = np.array(
 [["0", "1", "2"],
  ["3", Quest(LORE[0], [ENEMIES[0]], "Free Penguinia"), "5"],
