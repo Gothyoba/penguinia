@@ -6,7 +6,7 @@ Penguinia is currently on version 0.0.2. In order to play penguinia, run the fil
 
 ## How to play:
 
-Type everything in lowercase without any errors if you want the game to understand you. Always press enter after each command you give to the game. Here are all working commands:
+Make sure to type everything in lowercase without any errors in order for the game to understand you. Always press enter after each command you give to the game. Here are all working commands:
 
 w - moves the player north
 
