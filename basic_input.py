@@ -21,11 +21,8 @@ def get_new_pos(pos, direction):
 
 #placeholder, should take point in array NAMES to say your location in future
 def get_names(pos):
-	#error given if using pos == ORIGIN
-	if pos[0] == 0 and pos[1] == 0:
-		print("Forsteri is the capital of Penguinia.")
-	else:
-		print("You are in TODO")
+	index = pos_to_index(pos)
+	print(NAMES[index[0]][index[1]])
 
 def get_quests(pos):
 	index = pos_to_index(pos)
