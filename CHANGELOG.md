@@ -23,13 +23,13 @@
 Implemented:
 
 - Enemy hitpoints now shown during combat
+- Named grid of places (placeholders)
 
 Planned:
 
 - Randomize combat damage
 - Grid expansion
 - More quests
-- Named grid of places (placeholders)
 - Extension of quest Free Penguinia
 
 ## 0.1(planned)
