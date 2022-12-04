@@ -21,7 +21,7 @@ QUESTS = np.array(
 ]
 )
 
-#changes from matrix indexing in mnumpy to a coordinate in the game
+#changes from matrix indexing in numpy to a coordinate in the game
 def pos_to_index(pos):
     row = pos[1] + YMAX
     col = pos[0] + XMAX
