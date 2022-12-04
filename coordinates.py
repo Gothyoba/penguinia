@@ -7,9 +7,9 @@ YMAX = 1
 
 #coordinate matrix for names, currently uses placeholders unused until 0.0.3
 NAMES = np.array(
-[["A", "B", "C"],
- ["D", "Forsteri is the capital of Penguinia.", "F"],
- ["G", "H", "I"]
+[["Placeholder", "Placeholder", "Placeholder"],
+ ["Placeholder", "Forsteri is the capital of Penguinia.", "Placeholder"],
+ ["Placeholder", "Placeholder", "Placeholder"]
 ]
 )
 
