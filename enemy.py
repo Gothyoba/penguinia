@@ -10,6 +10,5 @@ class Enemy:
 #some enemies
 ENEMIES = [
     Enemy("Seal", 1, 2, 6, 6),
-    #placeholder
-    Enemy("foo", 1, 1, 1, 1)
+    Enemy("Seal Warrior", 1, 2, 8, 8)
 ]
