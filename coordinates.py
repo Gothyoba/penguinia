@@ -5,7 +5,7 @@ from enemy import ENEMIES
 XMAX = 1
 YMAX = 1
 
-#coordinate matrix for names, currently uses placeholders unused until 0.0.3
+#coordinate matrix for place names
 NAMES = np.array(
 [["Placeholder", "Placeholder", "Placeholder"],
  ["Placeholder", "Forsteri is the capital of Penguinia.", "Placeholder"],
