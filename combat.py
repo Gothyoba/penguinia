@@ -22,7 +22,7 @@ def combat1(enemy, hitpoints=HITPOINTS):
 	match key:
 		#attacking, o for offensive
 		case "o":
-			enemy.hitpoints = min(enemy.hitpoints - DAMAGE + enemy.protection, hitpoints - 1)
+			enemy.hitpoints = min(enemy.hitpoints - DAMAGE + enemy.protection, enemy.hitpoints - 1)
 			if enemy.hitpoints >= enemy.max_hitpoints:
 				enemy.hitpoints = enemy.max_hitpoints - 1
 			#checks for death
