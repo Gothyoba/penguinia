@@ -18,19 +18,17 @@
 - Placeholder text in quests
 - You cannot check for qeusts outside of the starting area (bug)
 
-### 0.0.3(incomplete)
-
-Implemented:
+### 0.0.3, December 10 2022
 
 - Enemy hitpoints now shown during combat
 - Named grid of places (placeholders)
 - Extension of quest Free Penguinia
+- Fixed bug where one cannot check for quests in places with no quests
 
-Planned:
+#### 0.0.4(planned)
 
 - Randomize combat damage
-- Grid expansion
-- More quests
+- Other combat tweaks
 
 ## 0.1(planned)
 
@@ -39,3 +37,5 @@ Planned:
 - Replace placeholder text in quests for storyline
 - Tutorial
 - More lore
+- Grid expansion
+- More quests
