@@ -27,6 +27,9 @@ def get_names(pos):
 #gets quests from names coordinates
 def get_quests(pos):
 	index = pos_to_index(pos)
+	if QUESTS[index[0]][index[1]] == 0:
+		print("There are no quests here.")
+		return
 	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
 	key = input()
 	match key:

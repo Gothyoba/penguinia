@@ -15,9 +15,9 @@ NAMES = np.array(
 
 #coordinate matrix for quests, some are placeholders, some don't work yet
 QUESTS = np.array(
-[["0", Quest(LORE[1], [ENEMIES[1]], "Free Penguinia Part 2"), "2"],
- ["3", Quest(LORE[0], [ENEMIES[0]], "Free Penguinia Part 1"), "5"],
- ["6", "7", "8"]
+[[0, Quest(LORE[1], [ENEMIES[1]], "Free Penguinia Part 2"), 0],
+ [0, Quest(LORE[0], [ENEMIES[0]], "Free Penguinia Part 1"), 0],
+ [0, 0, 0]
 ]
 )
 
