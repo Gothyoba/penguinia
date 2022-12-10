@@ -19,11 +19,12 @@ def get_new_pos(pos, direction):
 	else:
 		return pos
 
-#placeholder, should take point in array NAMES to say your location in future
+#gets names from names coordinates
 def get_names(pos):
 	index = pos_to_index(pos)
 	print(NAMES[index[0]][index[1]])
 
+#gets quests from names coordinates
 def get_quests(pos):
 	index = pos_to_index(pos)
 	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
