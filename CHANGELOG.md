@@ -1,13 +1,16 @@
 # Changelog
 
-## 0.0.1, November 6 2022
+## 0.0.0, November 5 2022
 
 - Basic introduction
-- Limited 3 by 3 grid
-- Basic combat
+
+### 0.0.1, November 6 2022
+
+- Added limited 3 by 3 grid
+- Added basic combat
 - Added quest searching
 - Added quest Free Penguinia
-- One named location
+- Added onenamed location, Foresteri
 
 ### 0.0.2, November 14 2022
 
@@ -25,7 +28,7 @@
 - Extension of quest Free Penguinia
 - Fixed bug where one cannot check for quests in places with no quests
 
-#### 0.0.4(planned)
+### 0.0.4(planned)
 
 - Randomize combat damage
 - Other combat tweaks
