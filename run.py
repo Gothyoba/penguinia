@@ -33,7 +33,7 @@ def start():
 			print("Have fun playing penguinia!")
 			ask_input()
 		case "e":
-			break
+			exit()
 		#error
 		case _:
 			print(ERROR)
