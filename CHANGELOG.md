@@ -34,10 +34,15 @@
 
 ## 0.1(planned)
 
+Implemented:
+
+- Added tutorial
+
+Planned:
+
 - Extension of introduction
 - Replace placeholder names for place names
 - Replace placeholder text in quests for storyline
-- Tutorial
 - More lore
 - Grid expansion
 - More quests

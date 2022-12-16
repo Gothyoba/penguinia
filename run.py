@@ -29,6 +29,7 @@ def start():
 			print("You always start the game with a sword and a potion.")
 			print("If you type something wrong, the game will simply reply with an error message and do nothing.")
 			print("Have fun playing penguinia!")
+			ask_input()
 		case "no":
 			print("Have fun playing penguinia!")
 			ask_input()
