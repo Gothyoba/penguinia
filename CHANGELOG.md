@@ -10,7 +10,7 @@
 - Added basic combat
 - Added quest searching
 - Added quest Free Penguinia
-- Added one named location, Foresteri
+- Added one named location, Forsteri
 
 ### 0.0.2, November 14 2022
 
@@ -19,7 +19,7 @@
 - Death message has exclamation mark
 - Temporarily removed quest rewards
 - Placeholder text in quests
-- You cannot check for qeusts outside of the starting area (bug)
+- You cannot check for quests outside of the starting area (bug)
 
 ### 0.0.3, December 10 2022
 
