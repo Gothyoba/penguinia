@@ -9,7 +9,7 @@ def start():
 	print("You have inherited the position of underpriest from your mother and are relatavily wealthy.")
 	print("The seal kingdom to the north has been hostile to Penguinia for decades.")
 	print("In your time, it is unsure when war will arise.")
-	print("Do you want the tutorial? Type tut and press enter if you want the tutorial. If not, type no.")
+	print("Do you want the tutorial? Type tut and press enter if you want the tutorial. If not, type n.")
 	key = input()
 	match key:
 		case "tut":
@@ -30,7 +30,7 @@ def start():
 			print("If you type something wrong, the game will simply reply with an error message and do nothing.")
 			print("Have fun playing penguinia!")
 			ask_input()
-		case "no":
+		case "n":
 			print("Have fun playing penguinia!")
 			ask_input()
 		case "e":
