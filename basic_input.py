@@ -19,26 +19,30 @@ def get_new_pos(pos, direction):
 	else:
 		return pos
 
-#placeholder, should take point in array NAMES to say your location in future
+#gets names from names coordinates
 def get_names(pos):
-	#error given if using pos == ORIGIN
-	if pos[0] == 0 and pos[1] == 0:
-		print("Forsteri is the capital of Penguinia.")
-	else:
-		print("You are in TODO")
+	index = pos_to_index(pos)
+	print(NAMES[index[0]][index[1]])
 
+#gets quests from names coordinates
 def get_quests(pos):
 	index = pos_to_index(pos)
+	if QUESTS[index[0]][index[1]] == 0:
+		print("There are no quests here.")
+		return
 	print("There is the quest " + QUESTS[index[0]][index[1]].name + ". Do you want to play it?")
 	key = input()
 	match key:
+		#accepting is y for yes not accepting is n for no
 		case "y":
 			print(QUESTS[index[0]][index[1]].lore[0])
 			combat1(QUESTS[index[0]][index[1]].enemies[0], 5)
 		case "n":
 			ask_input()
+		#exiting
 		case "e":
 			exit()
+		#anything else
 		case _:
 			print(ERROR)
 			get_quests(pos)
@@ -51,6 +55,7 @@ def ask_input():
 		get_names(pos)
 		key = input()
 		match key:
+			#use of wasd for movement
 			case "w":
 				pos = get_new_pos(pos, UP)
 			case "a":
@@ -61,7 +66,9 @@ def ask_input():
 				pos = get_new_pos(pos, RIGHT)
 			case "q":
 				get_quests(pos)
+			#ends the program
 			case "e":
 				break
+			#error
 			case _:
 				print(ERROR)
