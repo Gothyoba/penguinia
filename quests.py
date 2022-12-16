@@ -6,4 +6,4 @@ class Quest:
 		self.name = name
 
 #lore texts shown before questing
-LORE = ["X", "Y", "Z"]
+LORE = ["A priest has warned you of a violent seal intruder in the Grand Temple of Forsteri.", "Placeholder", "Placeholder"]
