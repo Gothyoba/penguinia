@@ -1,15 +1,15 @@
-#unused
 """Generate random numbers using Fibonacci LFSRs."""
 import numpy as np
 import math
-import pdb
+import time
+
+MAX_ROUNDS = 100
 
 #SEED
-
 SEED_SEED = np.array([0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0])
 
-#INTERNAL STRUCTURES
 
+#INTERNAL STRUCTURES
 POLLY_SEED = np.array([0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1])
 POLLY_FROG = np.array([0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1])
 
@@ -39,6 +39,7 @@ def binary_to_decimal(num):
 def update(iv, polly, rounds):
 	"""Linear feedback shift register."""
 	state = iv
+	rounds = rounds % 100
 	while rounds != 0:
 		shift = state[:11]
 		tapped = np.sum(np.array([(c + x) % 2 for (c, x) in zip(polly, state)])) % 2
@@ -53,7 +54,7 @@ def filter(state, start, end):
 	return start + (decimal_state % (end - start))
 
 def get_seed():
-	return update(SEED_SEED, POLLY_SEED, 42)
+	return update(SEED_SEED, POLLY_SEED, int(time.time()))
 
 #start is minimum value, end is maximum value seed is optional form: forg(start, end, seed)
 def frog(start, end, seed=None):
