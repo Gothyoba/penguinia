@@ -8,9 +8,9 @@ forsteri = {
         "quest": Quest(LORE[0], [ENEMIES[0]], "Free Penguinia Part 1")
         }
 
-placeholder1 = {
-        "name": "Placeholder",
-        "desc": "Placeholder",
+rivarato = {
+        "name": "Rivarato",
+        "desc": "Rivarato is a small fishing village beside an icy lake.",
         "quest": Quest(LORE[1], [ENEMIES[1]], "Free Penguinia Part 2")
         }
 
@@ -21,7 +21,7 @@ placeholder = {
         }
 
 GRID = np.array(
-[[placeholder, placeholder1, placeholder],
+[[placeholder, rivarato, placeholder],
  [placeholder, forsteri, placeholder],
  [placeholder, placeholder, placeholder]
 ]

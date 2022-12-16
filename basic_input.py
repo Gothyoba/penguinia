@@ -6,8 +6,8 @@ from combat import combat1
 
 
 def print_name(pos):
-    name = c.get_name(pos)
-    print("You are in " + name + ".")
+    name = c.get_desc(pos)
+    print(name)
 
 #gets quests from names coordinates
 def get_quests(pos):
