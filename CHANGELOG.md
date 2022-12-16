@@ -28,10 +28,9 @@
 - Extension of quest Free Penguinia
 - Fixed bug where one cannot check for quests in places with no quests
 
-### 0.0.4(planned)
+### 0.0.4, December 16 2022
 
 - Randomize combat damage
-- Other combat tweaks
 
 ## 0.1(planned)
 
