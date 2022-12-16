@@ -1,3 +1,4 @@
+#code by koifly
 """Generate random numbers using Fibonacci LFSRs."""
 import numpy as np
 import math
