@@ -4,3 +4,4 @@ lib64
 *.swp
 pyvenv.cfg
 __pycache__
+MY_LOCAL_PYTHON_NOTES.txt
