@@ -10,12 +10,12 @@
 - Added basic combat
 - Added quest searching
 - Added quest Free Penguinia
-- Added onenamed location, Foresteri
+- Added one named location, Foresteri
 
 ### 0.0.2, November 14 2022
 
 - Allowed exiting during quest searching
-- Commands yes, no, att and def changed to y, n, o and p repectively
+- Commands yes, no, att and def changed to y, n, o and p respectively
 - Death message has exclamation mark
 - Temporarily removed quest rewards
 - Placeholder text in quests
