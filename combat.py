@@ -1,6 +1,7 @@
 from basic_input import *
 from error import *
 from enemy import Enemy
+from froggy import frog
 
 #used in combat
 WEAPON = "Sword"
@@ -8,7 +9,7 @@ HELPER = "Potion"
 PROTECTION = 1
 HITPOINTS = 5
 MAX_HITPOINTS = 5
-DAMAGE = 2
+DAMAGE_MEDIUM = 2
 
 #player attack/defend
 def combat1(enemy, hitpoints=HITPOINTS):
@@ -22,7 +23,7 @@ def combat1(enemy, hitpoints=HITPOINTS):
 	match key:
 		#attacking, o for offensive
 		case "o":
-			enemy.hitpoints = min(enemy.hitpoints - DAMAGE + enemy.protection, enemy.hitpoints - 1)
+			enemy.hitpoints = min(enemy.hitpoints - frog(DAMAGE_MEDIUM - 2, DAMAGE_MEDIUM + 2) + enemy.protection, enemy.hitpoints - 1)
 			if enemy.hitpoints >= enemy.max_hitpoints:
 				enemy.hitpoints = enemy.max_hitpoints - 1
 			#checks for death
