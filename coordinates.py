@@ -2,35 +2,147 @@ import numpy as np
 from quests import Quest, LORE
 from enemy import ENEMIES
 
-forsteri = {
-        "name": "Forsteri",
-        "desc": "Forsteri is the capital of Penguinia.",
-        "quest": Quest(LORE[0], [ENEMIES[0]], "Free Penguinia Part 1")
-        }
+mount_pomp = {
+	"name": "Mount Pomp",
+	"desc": "Mount Pop is a tall, sacred mountain in the Seal Kingdom.",
+	"quest": 0
+}
+
+pinniped = {
+    "name": "Pinniped",
+    "desc": "Pinniped is the capital of the Seal Kingdom and is built near Mount Black.",
+    "quest": 0
+}
+
+otaria = {
+    "name": "Otaria",
+    "desc": "Otaria is a mountain village in the northern Seal Kingdom.",
+    "quest": 0
+}
+
+monachinae = {
+    "name": "Monachinae",
+    "desc": "Monachinae is a major port in the Seal Kingdom.",
+    "quest": 0
+}
+
+odobidae = {
+    "name": "Odobidae",
+    "desc": "Odobidae is a coastal town with an until recently thriving economy in the Seal Kingdom.",
+    "quest": 0
+}
+
+phoca = {
+    "name": "Phoca",
+    "desc": "Phoca is the largest city in Seal Kingdom",
+    "quest": 0
+}
+
+mantella = {
+    "name": "Mantella",
+    "desc": "Mantella is a small village is the Lily Republic.",
+    "quest": 0
+}
+
+anura = {
+    "name": "Anura",
+    "desc": "Anura is a town in the Lily Republic.",
+    "quest": 0
+}
+
+random = {
+    "name": "Random",
+    "desc": "Random is a random capital city in the Lily Republic where Forggy randomly lives sometimes.",
+    "quest": 0
+}
+
+papua = {
+    "name": "Papua",
+    "desc": "Papua is a large coastal town at the Papua River Delta.",
+    "quest": 0
+}
+
+megadyptes = {
+    "name": "Megadyptes",
+    "desc": "Megadyptes is a 100 year old coastal town in northern Penguinia.",
+    "quest": 0
+}
+
+antartica = {
+    "name": "Antartica",
+    "desc": "Antartica is a cold city at the northern coast of Penguinia..",
+    "quest": 0
+}
+
+mendiculus = {
+    "name": "Mendiculus",
+    "desc": "Mendiculus is a small fishing village on the river Papua.",
+    "quest": 0
+}
 
 rivarato = {
-        "name": "Rivarato",
-        "desc": "Rivarato is a small fishing village beside an icy lake.",
-        "quest": Quest(LORE[1], [ENEMIES[1]], "Free Penguinia Part 2")
-        }
+	"name": "Rivarato",
+	"desc": "Rivarato is a small fishing village beside an icy lake in Penguinia.",
+	"quest": Quest(LORE[1], [ENEMIES[1]], "Free Penguinia Part 2")
+}
 
-placeholder = {
-        "name": "Placeholder",
-        "desc": "Placeholder",
-        "quest": 0
-        }
+icy_plain = {
+    "name": "Icy Plain",
+    "desc": "The Icy Plains of Penguinia are a huge icy plain around the enitrety of Pneguinia.",
+    "quest": 0
+}
+
+fik = {
+    "name": "Fik",
+    "desc": "Fik is situated at the River Papua, and is the oldest city inPneguinia, 420 years old.",
+    "quest": 0
+}
+
+forsteri = {
+	"name": "Forsteri",
+	"desc": "Forsteri is the capital of Penguinia.",
+	"quest": Quest(LORE[0], [ENEMIES[0]], "Free Penguinia Part 1")
+}
+
+pink_peak = {
+    "name": "Pink Peak",
+    "desc": "The grand Pink Peak is the tallest peak in Penguinia, known for its mild pink shade in the tough rock.",
+    "quest": 0
+}
+
+forstville = {
+    "name": "Frostville",
+    "desc": "Frostville is the southernmost settlement in Penguinia.",
+    "quest": 0
+}
+
+demersus = {
+    "name": "Demersus",
+    "desc": "Demersus is a large castle in southern Penguinia.",
+    "quest": 0
+}
+
+magellanicus = {
+    "name": "Magellanicus",
+    "desc": "Magellanicus is the lragest castle in Penguinia.",
+    "quest": 0
+}
 
 GRID = np.array(
-[[placeholder, rivarato, placeholder],
- [placeholder, forsteri, placeholder],
- [placeholder, placeholder, placeholder]
+[[mount_pomp, pinniped, otaria],
+ [monachinae, odobidae, phoca],
+ [mantella, anura, random],
+ [papua, megadyptes, antartica],
+ [mendiculus, rivarato, icy_plain],
+ [fik, forsteri, pink_peak],
+ [forstville, demersus, magellanicus]
 ]
 )
 
 #directions and origin for grid
 XMAX = 2
-YMAX = 2
-ORIGIN = np.array([1,1])
+YMAX = 6
+ORIGIN = np.array([1,5])
 UP = np.array([0,1])
 RIGHT = np.array([1,0])
 DOWN = -UP
