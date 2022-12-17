@@ -39,6 +39,8 @@ Implemented:
 - Added tutorial
 - Extension of introduction
 - Replace placeholder text in quests for storyline
+- Removed visible coordinates
+- Added the game's first easter egg
 
 Planned:
 
