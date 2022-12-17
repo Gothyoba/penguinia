@@ -46,3 +46,9 @@ Planned:
 - More lore
 - Grid expansion
 - More quests
+
+## 0.2(planned)
+
+- Level system used to lock quests
+- Allow weapon and potion switching
+- Re-add quest rewards
