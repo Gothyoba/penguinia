@@ -11,7 +11,7 @@ mount_pomp = {
 pinniped = {
     "name": "Pinniped",
     "desc": "Pinniped is the capital of the Seal Kingdom and is built near Mount Black.",
-    "quest": 0
+    "quest": Quest(LORE[7], [ENEMIES[7]], "Free Penguinia Part 8")
 }
 
 otaria = {
@@ -23,13 +23,13 @@ otaria = {
 monachinae = {
     "name": "Monachinae",
     "desc": "Monachinae is a major port in the Seal Kingdom.",
-    "quest": 0
+    "quest": Quest(LORE[5], [ENEMIES[5]], "Free Penguinia Part 6")
 }
 
 odobidae = {
     "name": "Odobidae",
     "desc": "Odobidae is a coastal town with an until recently thriving economy in the Seal Kingdom.",
-    "quest": 0
+    "quest": Quest(LORE[6], [ENEMIES[6]], "Free Penguinia Part 7")
 }
 
 phoca = {
@@ -47,19 +47,19 @@ mantella = {
 anura = {
     "name": "Anura",
     "desc": "Anura is a town in the Lily Republic.",
-    "quest": 0
+    "quest": Quest(LORE[4], [ENEMIES[4]], "Free Penguinia Part 5")
 }
 
 random = {
     "name": "Random",
     "desc": "Random is a random capital city in the Lily Republic where Forggy randomly lives sometimes.",
-    "quest": 0
+    "quest": Quest(LORE[3], [ENEMIES[3]], "Free Penguinia Part 4")
 }
 
 papua = {
     "name": "Papua",
     "desc": "Papua is a large coastal town at the Papua River Delta.",
-    "quest": 0
+    "quest": Quest(LORE[2], [ENEMIES[2]], "Free Penguinia Part 3")
 }
 
 megadyptes = {
