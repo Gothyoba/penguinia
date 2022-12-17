@@ -26,7 +26,7 @@ def start():
 			print("o - attacks enemy while in combat")
 			print("p - sets your hitpoints to just under your maximum hitpoints in combat if you have a potion")
 			print("Each time you move around the world you will be given the name of a place and will have the opportunity to explore quests and combat.")
-			print("You always start the game with a sword and a potion.")
+			print("You always start the game with a sword and a potion. Cyrrently you cannot get any new weapons or healers.")
 			print("If you type something wrong, the game will simply reply with an error message and do nothing.")
 			print("Have fun playing penguinia!")
 			ask_input()
