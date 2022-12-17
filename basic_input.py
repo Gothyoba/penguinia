@@ -7,12 +7,13 @@ from combat import combat1
 
 def print_name(pos):
     name = c.get_desc(pos)
+    print("You are in " + c.get_name(pos) + ".")
     print(name)
 
 #gets quests from names coordinates
 def get_quests(pos):
 	quest = c.get_quest(pos)
-	print("Here is the quest: " + quest.name + ". Do you want to play it?")
+	print("There is a quest " + quest.name + ". Do you want to play it?")
 	key = input()
 	match key:
 		#accepting is y for yes not accepting is n for no
