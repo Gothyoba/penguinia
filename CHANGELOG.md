@@ -32,22 +32,16 @@
 
 - Randomize combat damage
 
-## 0.1(planned)
-
-Implemented:
+## 0.1.0, December 17 2022
 
 - Added tutorial
-- Extension of introduction
-- Replace placeholder text in quests for storyline
+- Extended of introduction
+- Replaced placeholder text in quests for storyline
 - Removed visible coordinates
-- Added the game's first easter egg
-- Grid expansion
+- Added easter egg 1
+- Expanded grid
 - Replace placeholder names for place names
-
-Planned:
-
-- More lore
-- More quests
+- Extended quest Free Penguinia to a full 8 parts.
 
 ## 0.2(planned)
 
