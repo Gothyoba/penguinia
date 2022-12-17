@@ -6,7 +6,7 @@ def start():
 	print("You are a penguin.")
 	print("You live in the nation of Penguinia.")
 	print("Your name is Morguin.")
-	print("You have inherited the position of underpriest from your mother and are relatavily wealthy.")
+	print("You have inherited the position of underpriest from your mother and are relatavely wealthy.")
 	print("The seal kingdom to the north has been hostile to Penguinia for decades.")
 	print("In your time, it is unsure when war will arise.")
 	print("Do you want the tutorial? Type tut and press enter if you want the tutorial. If not, type n.")
