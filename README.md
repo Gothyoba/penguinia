@@ -6,7 +6,7 @@ Penguinia is currently on version 0.0.4, although 0.1 is in development on branc
 
 Each time you move the player the game will output the name of where you are, or a placeholder name. In the future this will be a more detailed description for each location.
 
-Penguinia currently limits the player to a 3 by 3 grid, however this grid will expand in the next few updates.
+Penguinia lets you explore a 3 by 7 grid with 21 interesting fantasy locations.
 
 Note: This game requires python version 3.10 and above as well as the corresponding version of numpy.
 

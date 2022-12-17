@@ -41,12 +41,12 @@ Implemented:
 - Replace placeholder text in quests for storyline
 - Removed visible coordinates
 - Added the game's first easter egg
+- Grid expansion
 
 Planned:
 
 - Replace placeholder names for place names
 - More lore
-- Grid expansion
 - More quests
 
 ## 0.2(planned)
