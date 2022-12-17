@@ -13,13 +13,19 @@ def print_name(pos):
 #gets quests from names coordinates
 def get_quests(pos):
 	quest = c.get_quest(pos)
-	print("There is a quest " + quest.name + ". Do you want to play it?")
+	try:
+		print("There is a quest " + quest.name + ". Do you want to play it?")
+	except Exception as e:
+		print("There are no quests here.")
 	key = input()
 	match key:
 		#accepting is y for yes not accepting is n for no
 		case "y":
-			print(quest.lore)
-			combat1(quest.enemies[0], 5)
+			try:
+				print(quest.lore)
+				combat1(quest.enemies[0], 5)
+			except Exception as e:
+				print(ERROR)	
 		case "n":
 			ask_input()
 		#exiting
