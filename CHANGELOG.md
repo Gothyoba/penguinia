@@ -37,10 +37,10 @@
 Implemented:
 
 - Added tutorial
+- Extension of introduction
 
 Planned:
 
-- Extension of introduction
 - Replace placeholder names for place names
 - Replace placeholder text in quests for storyline
 - More lore
