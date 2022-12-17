@@ -42,10 +42,10 @@ Implemented:
 - Removed visible coordinates
 - Added the game's first easter egg
 - Grid expansion
+- Replace placeholder names for place names
 
 Planned:
 
-- Replace placeholder names for place names
 - More lore
 - More quests
 
