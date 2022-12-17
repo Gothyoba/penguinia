@@ -38,11 +38,11 @@ Implemented:
 
 - Added tutorial
 - Extension of introduction
+- Replace placeholder text in quests for storyline
 
 Planned:
 
 - Replace placeholder names for place names
-- Replace placeholder text in quests for storyline
 - More lore
 - Grid expansion
 - More quests
