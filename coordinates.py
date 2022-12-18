@@ -106,25 +106,25 @@ forsteri = {
 
 pink_peak = {
     "name": "Pink Peak",
-    "desc": "The grand Pink Peak is the tallest peak in Penguinia, known for its mild pink shade in the tough rock.",
+    "desc": "The grand Pink Peak is the tallest peak in Penguinia, known for its mild pink shade in its tough volcanic rock.",
     "quest": 0
 }
 
 forstville = {
     "name": "Frostville",
-    "desc": "Frostville is the southernmost settlement in Penguinia.",
+    "desc": "Frostville is the southernmost settlement in Penguinia, located near Mount Mont.",
     "quest": 0
 }
 
 demersus = {
     "name": "Demersus",
-    "desc": "Demersus is a large castle in southern Penguinia.",
+    "desc": "Demersus is a large castle in southern Penguinia, near the Southern mountain range.",
     "quest": 0
 }
 
 magellanicus = {
     "name": "Magellanicus",
-    "desc": "Magellanicus is the lragest castle in Penguinia.",
+    "desc": "Magellanicus is the largest castle in Penguinia, located on a tall cliff.",
     "quest": 0
 }
 

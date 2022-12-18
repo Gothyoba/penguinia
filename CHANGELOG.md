@@ -45,8 +45,13 @@
 
 ### 0.1.1(planned)
 
-- Add Extended Descriptions
+Implemented:
+
 - Reference a partly volcanic mountain range in Southern Penguinia
+
+Planned:
+
+- Add Extended Descriptions
 - Add easter egg 2
 - Add quest dialogue
 - Add epic game ending
