@@ -46,11 +46,9 @@
 
 ### 0.1.1(planned)
 
-Implemented:
-
 - Reference a partly volcanic mountain range in Southern Penguinia
 - Fixed bug that when the game finds no quest it will put the player in an unplayable loop
-- Fixed typo in description for the Icy Plain
+- Fixed typso in description for the Icy Plain, Fik, Random, 
 
 ## 0.2(planned)
 

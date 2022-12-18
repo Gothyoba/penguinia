@@ -88,13 +88,13 @@ rivarato = {
 
 icy_plain = {
     "name": "Icy Plain",
-    "desc": "The Icy Plains of Penguinia are a huge icy plain around the enitirety of Penguinia.",
+    "desc": "The Icy Plains of Penguinia are a huge icy plain around the entirety of Penguinia.",
     "quest": 0
 }
 
 fik = {
     "name": "Fik",
-    "desc": "Fik is situated at the River Papua, and is the oldest city inPneguinia, 420 years old.",
+    "desc": "Fik is situated at the River Papua, and is the oldest city in Penguinia, 420 years old.",
     "quest": 0
 }
 
