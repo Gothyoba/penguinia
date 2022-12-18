@@ -17,6 +17,8 @@ def get_quests(pos):
 		print("There is a quest " + quest.name + ". Do you want to play it?")
 	except Exception as e:
 		print("There are no quests here.")
+		ask_input()
+		return
 	key = input()
 	match key:
 		#accepting is y for yes not accepting is n for no
@@ -58,7 +60,7 @@ def ask_input():
 				get_quests(pos)
 			#ends the program
 			case "e":
-				break
+				exit()
 			#error
 			case _:
 				print(ERROR)
