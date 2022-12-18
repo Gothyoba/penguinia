@@ -44,11 +44,11 @@
 - Extended quest Free Penguinia to a full 8 parts.
 - The game puts you in an unplayable loop when no quests are found (bug)
 
-### 0.1.1(planned)
+### 0.1.1, December 18 2022
 
 - Reference a partly volcanic mountain range in Southern Penguinia
 - Fixed bug that when the game finds no quest it will put the player in an unplayable loop
-- Fixed typso in description for the Icy Plain, Fik, Random, 
+- Fixed typso in description for the Icy Plain, Fik, Random.
 
 ## 0.2(planned)
 
