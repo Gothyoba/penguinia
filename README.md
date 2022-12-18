@@ -8,6 +8,6 @@ Each time you move the player the game will output the name of where you are, or
 
 Penguinia lets you explore a 3 by 7 grid with 21 interesting fantasy locations and an 8-part main quest.
 
-Note: This game requires python version 3.10 and above as well as the corresponding version of numpy.
+Note: This game requires python version 3.10 and above as well as the corresponding versions of the libraries numpy, math and time.
 
 Have fun playing Penguinia!
