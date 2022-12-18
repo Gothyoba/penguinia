@@ -88,7 +88,7 @@ rivarato = {
 
 icy_plain = {
     "name": "Icy Plain",
-    "desc": "The Icy Plains of Penguinia are a huge icy plain around the enitrety of Penguinia.",
+    "desc": "The Icy Plains of Penguinia are a huge icy plain around the enitirety of Penguinia.",
     "quest": 0
 }
 

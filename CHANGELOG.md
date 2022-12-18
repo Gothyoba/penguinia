@@ -50,10 +50,7 @@ Implemented:
 
 - Reference a partly volcanic mountain range in Southern Penguinia
 - Fixed bug that when the game finds no quest it will put the player in an unplayable loop
-
-Planned:
-
-- Add game ending
+- Fixed typo in description for the Icy Plain
 
 ## 0.2(planned)
 
