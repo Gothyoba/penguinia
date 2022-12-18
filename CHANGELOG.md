@@ -43,6 +43,14 @@
 - Replace placeholder names for place names
 - Extended quest Free Penguinia to a full 8 parts.
 
+### 0.1.1(planned)
+
+- Add Extended Descriptions
+- Reference a partly volcanic mountain range in Southern Penguinia
+- Add easter egg 2
+- Add quest dialogue
+- Add epic game ending
+
 ## 0.2(planned)
 
 - Level system used to lock quests
