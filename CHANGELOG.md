@@ -53,13 +53,12 @@ Implemented:
 
 Planned:
 
-- Add Extended Descriptions
-- Add easter egg 2
-- Add quest dialogue
-- Add epic game ending
+- Add game ending
 
 ## 0.2(planned)
 
 - Level system used to lock quests
 - Allow weapon and potion switching
 - Re-add quest rewards
+- Add Extended Descriptions
+- Add easter egg 2
