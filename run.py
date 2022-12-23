@@ -3,7 +3,7 @@ from error import *
 
 #introduction
 def start():
-	print("You are a penguin.")
+	print("You are a penguin 🐧")
 	print("Your name is Morguin.")
 	print("You live in the nation of Penguinia, which has existed for 248 years.")
 	print("Due to this, it is now the year 248 AP(after Penguinia).")
