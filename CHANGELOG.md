@@ -50,6 +50,11 @@
 - Fixed bug that when the game finds no quest it will put the player in an unplayable loop
 - Fixed typo in description for the Icy Plain, Fik, Random.
 
+### 0.1.2, December 23 2022
+
+- Added penguin emoji to introduction
+- Fixed typo in the city of Random
+
 ## 0.2(planned)
 
 - Level system used to lock quests
