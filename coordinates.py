@@ -52,7 +52,7 @@ anura = {
 
 random = {
     "name": "Random",
-    "desc": "Random is a random capital city in the Lily Republic where Forggy randomly lives sometimes.",
+    "desc": "Random is a random capital city in the Lily Republic where Froggy randomly lives sometimes.",
     "quest": Quest(LORE[3], [ENEMIES[3]], "Free Penguinia Part 4")
 }
 
