@@ -41,7 +41,7 @@
 - Added easter egg 1
 - Expanded grid
 - Replace placeholder names for place names
-- Extended quest Free Penguinia to a full 8 parts.
+- Extended quest Free Penguinia to a full 8 parts
 - The game puts you in an unplayable loop when no quests are found (bug)
 
 ### 0.1.1, December 18 2022
@@ -54,6 +54,19 @@
 
 - Added penguin emoji to introduction
 - Fixed typo in the city of Random
+
+### 0.1.3(planned)
+
+Implemented:
+
+- Added several emojis
+- Fixed typo in the description of Antartica
+- Added more lore to quest Free Penguinia: Part 7
+
+Planned:
+
+- Change order of enemy hitpoints in combat to come after player hitpoints
+- Increase damage by Seal Assasins
 
 ## 0.2(planned)
 
