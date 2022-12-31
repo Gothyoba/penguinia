@@ -165,7 +165,7 @@ def get_quest(pos):
 def get_new_pos(pos, direction):
     pos = pos + direction
     if out_of_grid(pos):
-        print("Those lands are unknown. Who knows what dangers might lie in exploring them?❓")
+        print("Those lands are unknown. Who knows what dangers might lie in exploring them ❓")
         return pos - direction
     else:
         return pos
