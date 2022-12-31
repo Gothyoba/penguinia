@@ -14,7 +14,7 @@ DAMAGE_MEDIUM = 2
 #player attack/defend
 def combat1(enemy, hitpoints=HITPOINTS):
 	print(f"Enemy hitpoints are {enemy.hitpoints}")
-	print("You are fighting " + enemy.name + "!")
+	print("You are fighting " + enemy.name + "!⚔️")
 	print("Your weapon is " + WEAPON + "!")
 	print("Your helper is " + HELPER + "!")
 	print(f"You have {hitpoints} hitpoints!")
@@ -28,7 +28,7 @@ def combat1(enemy, hitpoints=HITPOINTS):
 				enemy.hitpoints = enemy.max_hitpoints - 1
 			#checks for death
 			elif enemy.hitpoints <= 0:
-				print("Enemy is dead.")
+				print("Enemy is dead.💀")
 			else:
 				combat2(enemy, hitpoints)
 		#defending, p for protection
@@ -53,7 +53,7 @@ def combat2(enemy, hitpoints=HITPOINTS):
 	hitpoints = min(hitpoints - frog(enemy.damage -1, enemy.damage + 3) + PROTECTION, hitpoints)
 	#checks for death
 	if hitpoints <= 0:
-		print("You are dead!")
+		print("You are dead!💀")
 		exit()
 	#makes sure hitpoints don't go beyond the max
 	if  hitpoints >= MAX_HITPOINTS:
