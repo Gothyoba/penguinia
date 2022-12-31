@@ -56,19 +56,15 @@
 - Added penguin emoji to introduction
 - Fixed typo in the city of Random
 
-### 0.1.3(planned)
-
-Implemented:
+### 0.1.3, December 31 2022
 
 - Added several emojis
 - Fixed typo in the description of Antartica
 - Added more lore to quest Free Penguinia: Part 7
 - Fixed bug where the game ends when a mistake is made while inputting right after the introduction
-
-Planned:
-
 - Change order of enemy hitpoints in combat to come after player hitpoints
 - Increase damage by Seal Assasins
+- Fixed typo in description of Mount Pomp
 
 ## 0.2(planned)
 
