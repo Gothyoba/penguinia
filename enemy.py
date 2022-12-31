@@ -14,7 +14,7 @@ ENEMIES = [
     Enemy("Seal Assasin", 1, 3, 4, 4),
     Enemy("Seal", 1, 2, 6, 6),
     Enemy("Seal Warrior", 1, 2, 7, 7),
-    Enemy("Seal Assasin", 1, 3, 4, 4),
+    Enemy("Seal Assasin", 2, 3, 4, 4),
     Enemy("Seal", 1, 2, 6, 6),
     Enemy("Seal King", 1, 1, 9, 9)
 ]
