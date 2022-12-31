@@ -4,7 +4,7 @@ from enemy import ENEMIES
 
 mount_pomp = {
 	"name": "Mount Pomp",
-	"desc": "Mount Pop is a tall, sacred mountain in the Seal Kingdom.⛰️",
+	"desc": "Mount Pop is a tall, sacred mountain in the Seal Kingdom. ⛰️",
 	"quest": 0
 }
 
@@ -52,7 +52,7 @@ anura = {
 
 random = {
     "name": "Random",
-    "desc": "Random is a random capital city in the Lily Republic where Froggy randomly lives sometimes.🎲",
+    "desc": "Random is a random capital city in the Lily Republic where Froggy randomly lives sometimes. 🎲",
     "quest": Quest(LORE[3], [ENEMIES[3]], "Free Penguinia Part 4")
 }
 
@@ -88,7 +88,7 @@ rivarato = {
 
 icy_plain = {
     "name": "Icy Plain",
-    "desc": "The Icy Plains of Penguinia are a huge icy plain around the entirety of Penguinia.🧊",
+    "desc": "The Icy Plains of Penguinia are a huge icy plain around the entirety of Penguinia. 🧊",
     "quest": 0
 }
 
@@ -106,7 +106,7 @@ forsteri = {
 
 pink_peak = {
     "name": "Pink Peak",
-    "desc": "The grand Pink Peak is the tallest peak in Penguinia, known for its mild pink shade in its tough volcanic rock.🌋",
+    "desc": "The grand Pink Peak is the tallest peak in Penguinia, known for its mild pink shade in its tough volcanic rock. 🌋",
     "quest": 0
 }
 
