@@ -4,7 +4,7 @@ from enemy import ENEMIES
 
 mount_pomp = {
 	"name": "Mount Pomp",
-	"desc": "Mount Pop is a tall, sacred mountain in the Seal Kingdom. ⛰️",
+	"desc": "Mount Pomp is a tall, sacred mountain in the Seal Kingdom. ⛰️",
 	"quest": 0
 }
 
