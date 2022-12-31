@@ -13,11 +13,11 @@ DAMAGE_MEDIUM = 2
 
 #player attack/defend
 def combat1(enemy, hitpoints=HITPOINTS):
-	print(f"Enemy hitpoints are {enemy.hitpoints}")
 	print("You are fighting " + enemy.name + "! ⚔️")
 	print("Your weapon is " + WEAPON + "!")
 	print("Your helper is " + HELPER + "!")
 	print(f"You have {hitpoints} hitpoints!")
+	print(f"EThe enemy has {enemy.hitpoints} hitpoints!")
 	print("Choose your action! Attack or defend.")
 	key = input()
 	match key:
