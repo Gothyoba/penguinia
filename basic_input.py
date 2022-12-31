@@ -55,7 +55,7 @@ def ask_input():
 			case "d":
 				pos = c.get_new_pos(pos, c.RIGHT)
 			case "666":
-				print("You understand the true nature of this world. Good.😶")
+				print("You understand the true nature of this world. Good. 😶")
 			case "q":
 				get_quests(pos)
 			#ends the program
