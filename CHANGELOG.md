@@ -43,6 +43,7 @@
 - Replace placeholder names for place names
 - Extended quest Free Penguinia to a full 8 parts
 - The game puts you in an unplayable loop when no quests are found (bug)
+- Making a mistake while inputting right after the introducton causes the game to end(bug)
 
 ### 0.1.1, December 18 2022
 
@@ -62,6 +63,7 @@ Implemented:
 - Added several emojis
 - Fixed typo in the description of Antartica
 - Added more lore to quest Free Penguinia: Part 7
+- Fixed bug where the game ends when a mistake is made while inputting right after the introduction
 
 Planned:
 

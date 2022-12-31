@@ -49,6 +49,7 @@ def start():
 		#error
 		case _:
 			print(ERROR)
+			start()
 
 #runs the game
 if __name__ == '__main__':
