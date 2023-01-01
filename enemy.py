@@ -9,6 +9,7 @@ class Enemy:
 
 #some enemies
 ENEMIES = [
+    Enemy("Priest", 2, 1, 5, 5),
     Enemy("Seal", 1, 2, 6, 6),
     Enemy("Seal Warrior", 1, 2, 7, 7),
     Enemy("Seal Assasin", 1, 3, 4, 4),

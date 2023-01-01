@@ -26,6 +26,7 @@ def get_quests(pos):
 			try:
 				print(quest.lore)
 				combat1(quest.enemies[0], 5)
+				combat1(quest.enemies[1], 5)
 			except Exception as e:
 				print(ERROR)	
 		case "n":

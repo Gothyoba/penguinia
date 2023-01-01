@@ -101,7 +101,7 @@ fik = {
 forsteri = {
 	"name": "Forsteri",
 	"desc": "Forsteri is the capital of Penguinia.",
-	"quest": Quest(LORE[0], [ENEMIES[0]], "Free Penguinia Part 1")
+	"quest": Quest(LORE[0], [ENEMIES[0], ENEMIES[1]], "Free Penguinia Part 1")
 }
 
 pink_peak = {
