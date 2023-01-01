@@ -68,6 +68,13 @@
 
 ## 0.2(planned)
 
+Implemented:
+
+- Significantly extended the description of of the quest Free Penguinia: Part 1 to include dialogue
+- Removed extra capital e at the start of enemy hitpoints
+
+Planned:
+
 - Level system used to lock quests
 - Allow weapon and potion switching
 - Re-add quest rewards
