@@ -17,7 +17,7 @@ def combat1(enemy, hitpoints=HITPOINTS):
 	print("Your weapon is " + WEAPON + "!")
 	print("Your helper is " + HELPER + "!")
 	print(f"You have {hitpoints} hitpoints!")
-	print(f"EThe enemy has {enemy.hitpoints} hitpoints!")
+	print(f"The enemy has {enemy.hitpoints} hitpoints!")
 	print("Choose your action! Attack or defend.")
 	key = input()
 	match key:

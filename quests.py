@@ -1,3 +1,7 @@
+from reader import *
+
+part_01 = reader("./lore/free_penguinia_01")
+
 #used to create different quests
 class Quest:
 	def __init__(self, lore, enemies, name):
@@ -6,7 +10,7 @@ class Quest:
 		self.name = name
 
 #lore texts shown before questing
-LORE = ["A priest has warned you of a violent seal intruder in the Grand Temple of Forsteri.", 
+LORE = [part_01, 
 	"There appears to be a seal warrior claiming to be from the Seal Kingdom is ravaging the peaceful countryside of Penguinia.", 
 	"An army of seals from the Seal Kingdom is attacking the port. It would appear as though the invasion has begun. You must try to escape alive.",
 	"You randomly found yourself in the city of Random after escaping in a small raft. President Froggy wants you to randomly kill some invading seals before going to Anura.",
