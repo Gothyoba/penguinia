@@ -6,7 +6,7 @@ Design, Most Programming
 
 ## deciob
 
-Some Programming, Some Programming Assitance
+Some Programming, Some Programming Assitance, Idea for update 0.1.3
 
 ## koifly, aka PublicKey
 
