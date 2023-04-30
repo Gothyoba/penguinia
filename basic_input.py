@@ -4,6 +4,7 @@ from error import *
 #coordinates is currently unused
 import coordinates as c
 from combat import combat1
+from reader import reader
 
 
 def print_name(pos):
@@ -60,9 +61,11 @@ def ask_input():
 				print("You understand the true nature of this world. Good. 😶")
 			case "q":
 				get_quests(pos)
-			#ends the program
+			case "tm":
+				print(reader("./lore/timeline"))
 			case "e":
 				exit()
-			#error
+			#ends the program
 			case _:
 				print(ERROR)
+			#error

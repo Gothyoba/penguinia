@@ -1,8 +1,8 @@
 from reader import *
 
-part_01 = reader("./lore/free_penguinia_01")
-part_02 = reader("./lore/free_penguinia_02")
-part_03 = reader("./lore/free_penguinia_03")
+part_01 = reader("./lore/free_penguinia/free_penguinia_01")
+part_02 = reader("./lore/free_penguinia/free_penguinia_02")
+part_03 = reader("./lore/free_penguinia/free_penguinia_03")
 
 #used to create different quests
 class Quest:
