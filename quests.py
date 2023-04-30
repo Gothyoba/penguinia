@@ -2,6 +2,7 @@ from reader import *
 
 part_01 = reader("./lore/free_penguinia_01")
 part_02 = reader("./lore/free_penguinia_02")
+part_03 = reader("./lore/free_penguinia_03")
 
 #used to create different quests
 class Quest:
@@ -13,7 +14,7 @@ class Quest:
 #lore texts shown before questing
 LORE = [part_01, 
 	part_02, 
-	"An army of seals from the Seal Kingdom is attacking the port. It would appear as though the invasion has begun. You must try to escape alive.",
+	part_03,
 	"You randomly found yourself in the city of Random after escaping in a small raft. President Froggy wants you to randomly kill some invading seals before going to Anura.",
 	"You now find yourself in Anura. You decide that you will destroy King Krow. Perhaps you should go to Monachinae to do that? A Seal Warrior starts quickly attacking you.",
 	"You must now flee the asassins 🗡️ in the port as you try to reach Krow's Castle in Pinniped. Perhaps you should go to Odobidae first? You should be able to grab a snack.",
