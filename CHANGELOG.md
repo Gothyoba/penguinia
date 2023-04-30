@@ -70,14 +70,19 @@
 
 Implemented:
 
-- Significantly extended the description of of the quest Free Penguinia: Part 1 to include dialogue
-- Significantly extended the description of of the quest Free Penguinia: Part 2 to include dialogue
+- Significantly extended the description of of the quest Free Penguinia: Parts 1-2 to include dialogue
 - Removed extra capital e at the start of enemy hitpoints
+
+Planned:
+
+- Significantly extend the description of of the quest Free Penguinia: Parts 3-8 to include dialogue
+- Add Extended Descriptions
+
+## 0.3 (planned)
 
 Planned:
 
 - Level system used to lock quests
 - Allow weapon and potion switching
 - Re-add quest rewards
-- Add Extended Descriptions
 - Add easter egg 2
