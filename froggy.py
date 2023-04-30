@@ -1,4 +1,4 @@
-#code by koifly
+#code by koifly aka publickey
 """Generate random numbers using Fibonacci LFSRs."""
 import numpy as np
 import math
