@@ -72,10 +72,12 @@ Implemented:
 
 - Significantly extended the description of of the quest Free Penguinia: Parts 1-3 to include dialogue
 - Removed extra capital e at the start of enemy hitpoints
+- Added timeline to the game
+- Reworded introduction
 
 Planned:
 
-- Significantly extend the description of of the quest Free Penguinia: Parts 3-8 to include dialogue
+- Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
 - Add Extended Descriptions
 
 ## 0.3 (planned)
