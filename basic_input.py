@@ -1,3 +1,4 @@
+#spoilers! Easter egg 1 ahead
 import numpy as np
 from error import *
 #coordinates is currently unused
