@@ -58,7 +58,7 @@
 
 ### 0.1.3, December 31 2022
 
-- Added several emojis
+- Added several emojis to text
 - Fixed typo in the description of Antartica
 - Added more lore to quest Free Penguinia: Part 7
 - Fixed bug where the game ends when a mistake is made while inputting right after the introduction
@@ -78,7 +78,7 @@ Implemented:
 Planned:
 
 - Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
-- Add Extended Descriptions
+- Add Extended Descriptions for locations
 
 ## 0.3 (planned)
 
