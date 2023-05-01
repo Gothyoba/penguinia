@@ -70,16 +70,18 @@
 
 Implemented:
 
-- Significantly extended the description of of the quest Free Penguinia: Parts 1-3 to include dialogue
+- Significantly extended the description of of the quest Free Penguinia: Parts 1-4 to include dialogue
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
 - Added extended description for Forsteri and Pinniped
 - Removed visible coordinates
+- Added Seal Soldiers
+- Made Seal Warriors more powerful
 
 Planned:
 
-- Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
+- Significantly extend the description of of the quest Free Penguinia: Parts 5-8 to include dialogue
 - Add extended descriptions for all other locations
 
 ## 0.3.0 (planned)
