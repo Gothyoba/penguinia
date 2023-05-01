@@ -1,0 +1,77 @@
+
+This is a guide to Frog Language (currently unused).
+
+Word Order: As in English, but with adjectives after nouns and adverbs after verbs. Word order cannot vary from Subject-Vebr-Object.
+
+Conjugation:
+
+Uses suffixes:
+
+-a or -na(if a word ends in a vowel) present/infinitive
+-i or -ni(if a word ends in a vowel) past
+-u or -nu(if a word ends in a vowel) future
+
+Plural nouns with -i or -ni (if a word ends in a vowel)
+
+Orthography and Pronouncuation:
+
+m n ŋ
+p t k ʔ
+f s   h
+r j w
+l
+
+i u
+a
+
+(in IPA, English equivalents are upcoming)
+
+The alphabet changes ʔ with ' and ŋ with ng.
+
+There are no capital letters.
+
+Dictionary:
+
+afar - non-frog
+far - frog
+uji - monarch
+ka - I
+kuwi - to have
+lika - island
+kasin - city
+mema - land
+memanuji - kingdom
+ngah - seal
+pa - you(singular)
+te - they(singular)
+um - to be
+was - random
+
+Numbers:
+
+fan 1
+weh 2
+pung 3
+kaf 4
+is 5
+na 6
+site 7
+puja 8
+anam 9
+tusi 10
+tusi fan 11
+weh tusi 20
+weh tusi fan 21
+pusi 100
+pusini 1000
+
+Important Places:
+
+likani lili - Lily Islands
+kasin was - Random
+memanuji ngah - Seal Kingdom
+pengwinja - Penguinia
+
+Sample Sentences:
+
+kasin was uma kasin. Random is a city.
