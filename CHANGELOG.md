@@ -11,6 +11,7 @@
 - Added quest searching
 - Added quest Free Penguinia
 - Added quest rewards
+- Quest Rewards do not work (bug 1)
 - Added one named location, Forsteri
 
 ### 0.0.2, November 14 2022
@@ -20,14 +21,14 @@
 - Death message has exclamation mark
 - Temporarily removed quest rewards
 - Placeholder text in quests
-- You cannot check for quests outside of the starting area (bug 1)
+- You cannot check for quests outside of the starting area (bug 2)
 
 ### 0.0.3, December 10 2022
 
 - Enemy hitpoints now shown during combat
 - Named grid of places (placeholders)
 - Extension of quest Free Penguinia
-- Fixed bug 1
+- Fixed bug 2
 
 ### 0.0.4, December 16 2022
 
@@ -42,13 +43,13 @@
 - Expanded grid
 - Replace placeholder names for place names
 - Extended quest Free Penguinia to a full 8 parts
-- The game now puts you in an unplayable loop when no quests are found (bug 2)
-- Making a mistake while inputting right after the introducton now causes the game to end (bug 3)
+- The game now puts you in an unplayable loop when no quests are found (bug 3)
+- Making a mistake while inputting right after the introducton now causes the game to end (bug 4)
 
 ### 0.1.1, December 18 2022
 
 - Reference a partly volcanic mountain range in Southern Penguinia
-- Fixed bug 2
+- Fixed bug 3
 - Fixed typo in description for the Icy Plain, Fik, Random.
 
 ### 0.1.2, December 23 2022
@@ -61,7 +62,7 @@
 - Added several emojis to text
 - Fixed typo in the description of Antartica
 - Added more lore to quest Free Penguinia: Part 7
-- Fixed bug 3
+- Fixed bug 4
 - Change order of enemy hitpoints in combat to come after player hitpoints
 - Increase damage by Seal Assasins
 - Fixed typo in description of Mount Pomp
