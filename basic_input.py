@@ -61,6 +61,8 @@ def ask_input():
 				print("You understand the true nature of this world. Good. 😶")
 			case "q":
 				get_quests(pos)
+			case "ed":
+				print(c.get_ext_desc(pos))
 			case "tm":
 				print(reader("./lore/timeline"))
 			case "e":

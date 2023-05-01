@@ -1,6 +1,7 @@
 import numpy as np
 from quests import Quest, LORE
 from enemy import ENEMIES
+from reader import *
 
 mount_pomp = {
 	"name": "Mount Pomp",
@@ -117,7 +118,7 @@ fik = {
 forsteri = {
 	"name": "Forsteri",
 	"desc": "Forsteri is the capital of Penguinia.",
-    "ext_desc": "TODO",
+    "ext_desc": reader("./lore/locations/forsteri.txt"),
 	"quest": Quest(LORE[0], [ENEMIES[0], ENEMIES[1]], "Free Penguinia Part 1")
 }
 

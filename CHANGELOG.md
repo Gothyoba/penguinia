@@ -43,7 +43,7 @@
 - Replace placeholder names for place names
 - Extended quest Free Penguinia to a full 8 parts
 - The game puts you in an unplayable loop when no quests are found (bug)
-- Making a mistake while inputting right after the introducton causes the game to end(bug)
+- Making a mistake while inputting right after the introducton causes the game to end (bug)
 
 ### 0.1.1, December 18 2022
 
@@ -66,7 +66,7 @@
 - Increase damage by Seal Assasins
 - Fixed typo in description of Mount Pomp
 
-## 0.2(planned)
+## 0.2 (planned)
 
 Implemented:
 
@@ -74,11 +74,12 @@ Implemented:
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
+- Added extended description for Forsteri
 
 Planned:
 
 - Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
-- Add Extended Descriptions for locations
+- Add Extended Descriptions for all other locations
 
 ## 0.3 (planned)
 
