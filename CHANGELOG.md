@@ -82,7 +82,8 @@ Implemented:
 Planned:
 
 - Significantly extend the description of of the quest Free Penguinia: Parts 5-8 to include dialogue
-- Add extended descriptions for all other locations
+- Add extended descriptions for most locations
+- Add Frog Language
 
 ## 0.3.0 (planned)
 
