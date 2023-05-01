@@ -74,8 +74,8 @@ Implemented:
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
-- Added extended description for Forsteri
-- Remove visible coordinates
+- Added extended description for Forsteri and Pinniped
+- Removed visible coordinates
 
 Planned:
 
