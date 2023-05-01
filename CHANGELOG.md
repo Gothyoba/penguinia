@@ -80,7 +80,7 @@ Implemented:
 Planned:
 
 - Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
-- Add extended descriptions for all other location
+- Add extended descriptions for all other locations
 
 ## 0.3.0 (planned)
 
