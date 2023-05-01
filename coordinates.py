@@ -171,7 +171,6 @@ DOWN = -UP
 LEFT = -RIGHT
 
 def out_of_grid(pos):
-    print(pos)
     return pos[0] > XMAX or pos[0] < 0 or pos[1] > YMAX or pos[1] < 0
 
 def get_name(pos):

@@ -75,12 +75,12 @@ Implemented:
 - Added timeline to the game
 - Reworded introduction
 - Added extended description for Forsteri
+- Remove visible coordinates
 
 Planned:
 
 - Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
 - Add extended descriptions for all other location
-- Remove visible coordinates
 
 ## 0.3.0 (planned)
 
