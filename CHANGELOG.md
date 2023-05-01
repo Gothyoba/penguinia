@@ -78,12 +78,13 @@ Implemented:
 - Removed visible coordinates
 - Added Seal Soldiers
 - Made Seal Warriors more powerful
+- Added Frog Language
 
 Planned:
 
 - Significantly extend the descriptions of the quest Free Penguinia: Parts 5-8 to include dialogue
 - Add extended descriptions for most locations
-- Add Frog Language
+- Use Frog Language
 
 ## 0.3.0 (planned)
 
