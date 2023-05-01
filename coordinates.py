@@ -13,7 +13,7 @@ mount_pomp = {
 pinniped = {
     "name": "Pinniped",
     "desc": "Pinniped is the capital of the Seal Kingdom and is built near Mount Black.",
-    "ext_desc": "TODO",
+    "ext_desc": reader("./lore/locations/pinniped.txt"),
     "quest": Quest(LORE[7], [ENEMIES[7]], "Free Penguinia Part 8")
 }
 
