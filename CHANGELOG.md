@@ -66,25 +66,21 @@
 - Increase damage by Seal Assasins
 - Fixed typo in description of Mount Pomp
 
-## 0.2.0 (planned)
+## 0.2.0 (incomplete)
 
 Implemented:
 
-- Significantly extended the descriptions of the quest Free Penguinia: Parts 1-4 to include dialogue
+- Significantly extended the description of of the quest Free Penguinia: Parts 1-3 to include dialogue
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
-- Added extended descriptions for Forsteri and Pinniped
-- Removed visible coordinates
-- Added Seal Soldiers
-- Made Seal Warriors more powerful
-- Added Frog Language
+- Added extended description for Forsteri
+- Remove visible coordinates
 
 Planned:
 
-- Significantly extend the descriptions of the quest Free Penguinia: Parts 5-8 to include dialogue
-- Add extended descriptions for most locations
-- Use Frog Language
+- Significantly extend the description of of the quest Free Penguinia: Parts 4-8 to include dialogue
+- Add extended descriptions for all other locations
 
 ## 0.3.0 (planned)
 
