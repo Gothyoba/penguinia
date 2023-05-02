@@ -58,7 +58,7 @@ pung 3
 kaf 4
 is 5
 na 6
-site 7
+siti 7
 puja 8
 anam 9
 tusi 10
