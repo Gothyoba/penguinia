@@ -36,15 +36,21 @@ afar - non-frog
 far - frog
 uji - monarch
 ka - I
+kasin - city
+kara - large
 kuwi - to have
 lika - island
 kasin - city
-mema - land
-memanuji - kingdom
+mima - land
+mimanuji - kingdom
 ngah - seal
+ngini - small
 pa - you(singular)
+pes - high
 te - they(singular)
+tuma - book
 um - to be
+unti - of
 was - random
 
 Numbers:
@@ -55,13 +61,13 @@ pung 3
 kaf 4
 is 5
 na 6
-site 7
+siti 7
 puja 8
 anam 9
 tusi 10
 tusi fan 11
-weh tusi 20
-weh tusi fan 21
+wih tusi 20
+wih tusi fan 21
 pusi 100
 pusini 1000
 
@@ -69,8 +75,8 @@ Important Places:
 
 likani lili - Lily Islands
 kasin was - Random
-memanuji ngah - Seal Kingdom
-pengwinja - Penguinia
+mimanuji ngah - Seal Kingdom
+pingwinja - Penguinia
 
 Sample Sentences:
 
