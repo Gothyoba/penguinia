@@ -71,7 +71,7 @@
 
 Implemented:
 
-- Significantly extended the descriptions of the quest Free Penguinia: Parts 1-6 to include dialogue
+- Significantly extended the descriptions of the quest Free Penguinia: Parts 1-6 and 8 to include dialogue
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
@@ -83,7 +83,7 @@ Implemented:
 
 Planned:
 
-- Significantly extend the descriptions of the quest Free Penguinia: Parts 7-8 to include dialogue
+- Significantly extend the descriptions of the quest Free Penguinia: Part 7 to include dialogue
 - Add extended descriptions for most locations
 - Use and extend Frog Language
 
