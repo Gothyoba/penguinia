@@ -65,6 +65,8 @@ def ask_input():
 				print(c.get_ext_desc(pos))
 			case "tm":
 				print(reader("./lore/timeline"))
+			case "flg":
+				print(reader("./lore/languages/frog-lang-guide.txt"))
 			case "e":
 				exit()
 			#ends the program

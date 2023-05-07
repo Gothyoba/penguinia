@@ -1,5 +1,5 @@
 
-This is a guide of the Frog Language (currently unused, spoken in the Lily Islands).
+This is a guide of the Frog Language (spoken in the Lily Islands, W.I.P.)
 
 Word Order: As in English, but with adjectives after nouns and adverbs after verbs. Word order cannot vary from Subject-Verb-Object.
 
