@@ -6,6 +6,7 @@ part_03 = reader("./lore/free_penguinia/free_penguinia_03")
 part_04 = reader("./lore/free_penguinia/free_penguinia_04")
 part_05 = reader("./lore/free_penguinia/free_penguinia_05")
 part_06 = reader("./lore/free_penguinia/free_penguinia_06")
+part_07 = reader("./lore/free_penguinia/free_penguinia_07")
 part_08 = reader("./lore/free_penguinia/free_penguinia_08")
 
 #used to create different quests
@@ -22,5 +23,5 @@ LORE = [part_01,
 	part_04,
 	part_05,
 	part_06,
-	"Oh no! A seal is attacking you at the market. You must defend yourself.",
+	part_07,
 	part_08]
