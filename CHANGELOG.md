@@ -67,7 +67,7 @@
 - Increase damage by Seal Assasins
 - Fixed typo in description of Mount Pomp
 
-## 0.2.0 (planned)
+## 0.2.0, May 7 2022
 
 Implemented:
 
