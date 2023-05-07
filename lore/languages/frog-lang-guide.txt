@@ -15,14 +15,25 @@ Plural nouns end with -i or -ni (if a word ends in a vowel)
 
 Orthography and Pronouncuation:
 
-m n ŋ
-p t k ʔ
-f s   h
-ɹ j w
-l
+Letter - International Phonetic Alphabet - Englsih equivalent
 
-i u
-a
+m - m - as in the m in man
+n - n - as in the n in nature
+ŋ - ng - as in the ng in sing
+p - p - as in the p in spin
+t - t - as in the t in stack
+k - k - as in the k in ski
+' - ʔ - as in the - in uh-oh in received pronouncuation
+f - f - as in the f in fax
+s - s - as in the sum
+h - h - as in the h in ham
+r - ɹ - as in the r in crow in received pronouncuation
+j - j - as in the y in yam
+w - w - as in the w in wind
+l - l - as in the l in land
+i - i - as in the i in free but shorter
+u - u - as in the u in boot in received pronouncuation
+a - a - as in the a in hat in received pronouncuation
 
 (in IPA(International Phonetic Alphabet), English equivalents are upcoming)
 
