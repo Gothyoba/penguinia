@@ -71,7 +71,7 @@
 
 Implemented:
 
-- Significantly extended the descriptions of the quest Free Penguinia: Parts 1-6 and 8 to include dialogue
+- Significantly extended the descriptions of the quest Free Penguinia to include dialogue
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
@@ -80,10 +80,6 @@ Implemented:
 - Added Seal Soldiers
 - Made Seal Warriors more powerful
 - Added Frog Language
-
-Planned:
-
-- Significantly extend the descriptions of the quest Free Penguinia: Part 7 to include dialogue
 
 ## 0.3.0 (planned)
 
