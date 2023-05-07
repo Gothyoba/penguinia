@@ -75,7 +75,7 @@ Implemented:
 - Removed extra capital e at the start of enemy hitpoints
 - Added timeline to the game
 - Reworded introduction
-- Added extended descriptions for Forsteri and Pinniped
+- Added extended descriptions for Forsteri, Pinniped and Random
 - Removed visible coordinates
 - Added Seal Soldiers
 - Made Seal Warriors more powerful
@@ -84,8 +84,6 @@ Implemented:
 Planned:
 
 - Significantly extend the descriptions of the quest Free Penguinia: Part 7 to include dialogue
-- Add extended descriptions for major locations
-- Use and extend Frog Language
 
 ## 0.3.0 (planned)
 
