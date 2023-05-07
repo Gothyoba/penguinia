@@ -81,6 +81,10 @@ Implemented:
 - Made Seal Warriors more powerful
 - Added Frog Language
 
+### 0.2.1 (incomplete)
+
+- Fixed two typos in the lore for the quest Free Penguinia: Part 7
+
 ## 0.3.0 (planned)
 
 Planned:
