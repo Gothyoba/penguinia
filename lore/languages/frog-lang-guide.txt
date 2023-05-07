@@ -40,17 +40,14 @@ kasin - city
 kara - large
 kuwi - to have
 lika - island
-kasin - city
 mima - land
 mimanuji - kingdom
 ngah - seal
 ngini - small
 pa - you(singular)
-pes - high
 te - they(singular)
 tuma - book
 um - to be
-unti - of
 was - random
 
 Numbers:
