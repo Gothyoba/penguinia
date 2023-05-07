@@ -83,6 +83,8 @@ Implemented:
 
 ### 0.2.1 (incomplete)
 
+Implemented:
+
 - Fixed two typos in the lore for the quest Free Penguinia: Part 7
 
 ## 0.3.0 (planned)
