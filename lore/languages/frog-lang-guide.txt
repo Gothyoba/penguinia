@@ -1,7 +1,7 @@
 
 This is a guide of the Frog Language (currently unused, spoken in the Lily Islands).
 
-Word Order: As in English, but with adjectives after nouns and adverbs after verbs. Word order cannot vary from Subject-Vebr-Object.
+Word Order: As in English, but with adjectives after nouns and adverbs after verbs. Word order cannot vary from Subject-Verb-Object.
 
 Conjugation:
 
@@ -17,6 +17,8 @@ Orthography and Pronouncuation:
 
 Letter - International Phonetic Alphabet - Englsih equivalent
 
+Stress is always on the first syllable of a word.
+
 m - m - as in the m in man
 n - n - as in the n in nature
 ŋ - ng - as in the ng in sing
@@ -27,7 +29,7 @@ k - k - as in the k in ski
 f - f - as in the f in fax
 s - s - as in the sum
 h - h - as in the h in ham
-r - ɹ - as in the r in crow in received pronouncuation
+r - ɹ - as in the r in crow in received pronouncuation, but slightly further foward in the mouth and without rounding the lips
 j - j - as in the y in yam
 w - w - as in the w in wind
 l - l - as in the l in land
@@ -43,21 +45,26 @@ There are no capital letters.
 
 Dictionary:
 
+angi - year
 afar - non-frog
 far - frog
-uji - monarch
+fiko - high
+ite - in
+iwa - to inhabit
 ka - I
 kasin - city
 kara - large
-kuwi - to have
+kuwa - to have
 lika - island
 mima - land
 mimanuji - kingdom
+na - of
 ngah - seal
 ngini - small
 pa - you(singular)
 te - they(singular)
 tuma - book
+uji - monarch
 um - to be
 was - random
 
@@ -89,3 +96,5 @@ pingwinja - Penguinia
 Sample Sentences:
 
 kasin was uma kasin. Random is a city.
+
+kasin was kuwa kaf pusi weh tusi puja angini. Random is 428 years old. (lit. Random has 428 years)
