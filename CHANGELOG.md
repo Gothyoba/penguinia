@@ -86,6 +86,7 @@ Implemented:
 Implemented:
 
 - Fixed two typos in the lore for the quest Free Penguinia: Part 7
+- Reworded first sentence of lore for the quest Free Penguinia: Part 1
 
 ## 0.3.0 (planned)
 
