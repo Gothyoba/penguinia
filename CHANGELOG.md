@@ -97,3 +97,4 @@ Planned:
 - Allow weapon and potion switching
 - Re-add quest rewards
 - Add easter egg 2
+- Add Penguinese Language
