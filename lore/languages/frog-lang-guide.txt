@@ -68,7 +68,7 @@ was - random
 Numbers:
 
 fan 1
-weh 2
+wih 2
 pung 3
 kaf 4
 is 5
