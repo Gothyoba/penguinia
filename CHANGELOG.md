@@ -88,6 +88,7 @@ Implemented:
 - Fixed two typos in the lore for the quest Free Penguinia: Part 7
 - Reworded first sentence of lore for the quest Free Penguinia: Part 1
 - Removed two unnecesary lines in guide for Frog Language
+- Added word sima, meaning to be the same as, to the Frog Language
 
 ## 0.3.0 (planned)
 
