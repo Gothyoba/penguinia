@@ -57,7 +57,7 @@ def filter(state, start, end):
 def get_seed():
 	return update(SEED_SEED, POLLY_SEED, int(time.time()))
 
-#start is minimum value, end is maximum value seed is optional form: forg(start, end, seed)
+#start is minimum value, end is maximum value seed is optional form: frog(start, end, seed)
 def frog(start, end, seed=None):
 	"""Get a random number in the range."""
 	seed_arr = np.array([])
