@@ -90,6 +90,7 @@ Implemented:
 - Removed two unnecesary lines in guide for Frog Language
 - Added word sima, meaning to be the same as, to the Frog Language
 - Removed typo for word wih, meaning 2, in the Frog Language
+- Fixed typo in quest Free Penguinia: Part 5
 
 ## 0.3.0 (planned)
 
