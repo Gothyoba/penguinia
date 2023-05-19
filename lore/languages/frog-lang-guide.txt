@@ -41,6 +41,7 @@ There are no capital letters.
 
 Dictionary:
 
+'eni - road
 angi - year
 afar - non-frog
 far - frog
