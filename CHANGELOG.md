@@ -98,6 +98,7 @@ Implemented:
 
 Planned:
 
+- Add emoji map
 - Level system used to lock quests
 - Allow weapon and potion switching
 - Re-add quest rewards
