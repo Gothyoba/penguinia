@@ -90,9 +90,10 @@ Implemented:
 - Removed two unnecesary lines in guide for Frog Language
 - Added word sima, meaning to be the same as, to the Frog Language
 - Removed typo for word wih, meaning 2, in the Frog Language
-- Fixed typo in quest Free Penguinia: Part 5
+- Fixed 2 typosin quest Free Penguinia: Part 5
 - Expanded lore for quest Free Penguinia: Part 6
 - Added word 'eni, meanign road, to the Frog Language
+- Fixed typo in extended description of Random
 
 ## 0.3.0 (planned)
 
