@@ -92,7 +92,7 @@ Implemented:
 - Removed typo for word wih, meaning 2, in the Frog Language
 - Fixed typo in quest Free Penguinia: Part 5
 - Expanded lore for wuest Free Penguinia: Part 6
-- Added work 'eni, meanign oath, to the Frog Language
+- Added word 'eni, meanign road, to the Frog Language
 
 ## 0.3.0 (planned)
 
