@@ -91,7 +91,7 @@ Implemented:
 - Added word sima, meaning to be the same as, to the Frog Language
 - Removed typo for word wih, meaning 2, in the Frog Language
 - Fixed typo in quest Free Penguinia: Part 5
-- Expanded lore for wuest Free Penguinia: Part 6
+- Expanded lore for quest Free Penguinia: Part 6
 - Added word 'eni, meanign road, to the Frog Language
 
 ## 0.3.0 (planned)
@@ -103,3 +103,9 @@ Planned:
 - Re-add quest rewards
 - Add easter egg 2
 - Add Penguinese Language
+
+## 0.4.0 (planned)
+
+- Add Seal Language
+- Expand on conlangs
+- Add some features
