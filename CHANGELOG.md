@@ -94,6 +94,7 @@ Implemented:
 - Expanded lore for quest Free Penguinia: Part 6
 - Added word 'eni, meanign road, to the Frog Language
 - Fixed typo in extended description of Random
+- Added title to timeline
 
 ## 0.3.0 (planned)
 
