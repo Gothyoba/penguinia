@@ -8,6 +8,6 @@ Penguinia is currently in alpha, specifically on version 0.2. Becuase of this, m
 
 Despite being in such an early stage of development, Penguinia still lets you explore a 3 by 7 grid with 21 interesting fantasy locations and an 8-part main quest. It even has its own optional fictional language to learn!
 
-Note: This game requires python version 3.10 and above as well as the corresponding version of the library numpy.
+Note: This game requires python version 3.10 and above as well as numpy version 1.22.0 and above
 
 Have fun playing Penguinia!
