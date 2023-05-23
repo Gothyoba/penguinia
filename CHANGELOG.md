@@ -95,6 +95,8 @@ Implemented:
 - Added word 'eni, meanign road, to the Frog Language
 - Fixed typo in extended description of Random
 - Added title to timeline
+- Added word 'ake, menaing bad, to the Frog Language
+- Added work mite, meaning good, to the Frog Language
 
 ## 0.3.0 (planned)
 
