@@ -107,7 +107,6 @@ Implemented:
 Planned:
 
 - Add protection and weapon types (e.g. Blunt Protection, Hammer (Blunt Weapon))
-- Add emoji map
 - Level system used to lock quests
 - Allow weapon and potion switching
 - Re-add quest rewards
