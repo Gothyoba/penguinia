@@ -41,8 +41,8 @@ There are no capital letters.
 
 Dictionary:
 
-'ake - bad
-'eni - road
+'aki - bad
+'ini - road
 angi - year
 afar - non-frog
 far - frog
@@ -56,7 +56,7 @@ kuwa - to have
 lika - island
 mima - land
 mimanuji - kingdom
-mite - good
+miti - good
 na - of
 ngah - seal
 ngini - small
