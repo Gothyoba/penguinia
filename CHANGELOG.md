@@ -81,9 +81,7 @@ Implemented:
 - Made Seal Warriors more powerful
 - Added Frog Language
 
-### 0.2.1 (incomplete)
-
-Implemented:
+### 0.2.1, May 24 2023
 
 - Fixed two typos in the lore for the quest Free Penguinia: Part 7
 - Reworded first sentence of lore for the quest Free Penguinia: Part 1
@@ -97,6 +95,7 @@ Implemented:
 - Added title to timeline
 - Added word 'aki, menaing bad, to the Frog Language
 - Added work miti, meaning good, to the Frog Language
+- Reworded part of the extended description for the city of Random
 
 ## 0.3.0 (planned)
 
