@@ -99,9 +99,13 @@ Implemented:
 
 ## 0.3.0 (planned)
 
+Implemented:
+
+- Fixed some typos in timeline
+- Added Mosquito-related lore
+
 Planned:
 
-- Add Mosquito-related lore
 - Add protection and weapon types (e.g. Blunt Protection, Hammer (Blunt Weapon))
 - Add emoji map
 - Level system used to lock quests

@@ -47,14 +47,14 @@ phoca = {
 
 mantella = {
     "name": "Mantella",
-    "desc": "Mantella is a small village is the Lily Republic.",
+    "desc": "Mantella is a small village is the Lily Republic. It used to be part of the Mosquito Principality.",
     "ext_desc": "TODO",
     "quest": 0
 }
 
 anura = {
     "name": "Anura",
-    "desc": "Anura is a town in the Lily Republic.",
+    "desc": "Anura is a town in the Lily Republic. Some of the surrounding region used to be controlled by Mosquitos.",
     "ext_desc": "TODO",
     "quest": Quest(LORE[4], [ENEMIES[4]], "Free Penguinia Part 5")
 }
