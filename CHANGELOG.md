@@ -92,11 +92,11 @@ Implemented:
 - Removed typo for word wih, meaning 2, in the Frog Language
 - Fixed 2 typosin quest Free Penguinia: Part 5
 - Expanded lore for quest Free Penguinia: Part 6
-- Added word 'eni, meanign road, to the Frog Language
+- Added word 'ini, meanign road, to the Frog Language
 - Fixed typo in extended description of Random
 - Added title to timeline
-- Added word 'ake, menaing bad, to the Frog Language
-- Added work mite, meaning good, to the Frog Language
+- Added word 'aki, menaing bad, to the Frog Language
+- Added work miti, meaning good, to the Frog Language
 
 ## 0.3.0 (planned)
 
