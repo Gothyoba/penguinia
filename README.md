@@ -10,4 +10,6 @@ Despite being in such an early stage of development, Penguinia still lets you ex
 
 Note: This game requires python version 3.10 and above as well as numpy version 1.22.0 and above
 
+(Future) Browser Port: https://github.com/Gothyoba/penguinia-browser
+
 Have fun playing Penguinia!
