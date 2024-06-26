@@ -4,5 +4,5 @@ def reader(file):
 	return contents
 #used for indivdual lines
 def linereader(file,line):
-	contents = open(file, "r").readlines()
+	contents = open(file, "r", encoding="utf-8").readlines()
 	return contents[line]

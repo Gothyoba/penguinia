@@ -105,11 +105,9 @@ Implemented:
 - Fixed a typo in frog language guide
 - Reworded pronunciation guide in frog language guide
 - Added Mosquito-related lore
-- Removed some emoji
 
 Planned:
 
-- Remove all emoji
 - Add protection and weapon types (e.g. Blunt Protection, Hammer (Blunt Weapon))
 - Level system used to lock quests
 - Allow weapon and potion switching
