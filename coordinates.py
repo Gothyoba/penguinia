@@ -5,14 +5,14 @@ from reader import *
 
 mount_pomp = {
 	"name": "Mount Pomp",
-	"desc": "Mount Pomp is a tall, sacred mountain in the Seal Kingdom. ⛰️",
+	"desc": linereader("./lore/short_descriptions.txt", 0),
     "ext_desc": "TODO",
 	"quest": 0
 }
 
 pinniped = {
     "name": "Pinniped",
-    "desc": "Pinniped is the capital of the Seal Kingdom and is built near Mount Black.",
+    "desc": linereader("./lore/short_descriptions.txt", 1),
     "ext_desc": reader("./lore/locations/pinniped.txt"),
     "quest": Quest(LORE[7], [ENEMIES[7]], "Free Penguinia Part 8")
 }
