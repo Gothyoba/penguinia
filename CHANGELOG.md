@@ -102,6 +102,7 @@ Implemented:
 Implemented:
 
 - Fixed some typos in timeline
+- FIxed a typo in the tutorial
 - Fixed a typo in frog language guide
 - Reworded pronunciation guide in frog language guide
 - Added Mosquito-related lore

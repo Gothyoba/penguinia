@@ -40,7 +40,7 @@ def start():
 			print("tm - gives you a full timeline of the world(long)")
 			print("flg - gives you a guide to the frog language")
 			print("Each time you move around the world you will be given the name of a place and will have the opportunity to explore quests and combat.")
-			print("You always start the game with a sword and a potion. Cyrrently you cannot get any new weapons or healers.")
+			print("You always start the game with a sword and a potion. Currently you cannot get any new weapons or healers.")
 			print("If you type something wrong, the game will simply reply with an error message and do nothing.")
 			print("Have fun playing penguinia!")
 			ask_input()
