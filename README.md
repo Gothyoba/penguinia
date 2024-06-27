@@ -12,8 +12,6 @@ Note: This game requires python version 3.10 and above as well as numpy version 
 
 (Future) Browser Port: https://github.com/Gothyoba/penguinia-browser
 
-(Future) (spoilers) Encyclopedia: https://Gothyoba.github.io
-
 Have fun playing Penguinia!
 
 ![alt text](https://raw.githubusercontent.com/Gothyoba/penguinia-browser/main/images/logo.png)
